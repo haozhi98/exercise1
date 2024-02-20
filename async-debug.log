@@ -1,0 +1,1188 @@
+2024-02-18 19:09:01,828 - root - INFO - API response: status 200, resp {'req_id': '2', 'status': 'OK'}
+2024-02-18 19:09:01,849 - root - INFO - API response: status 200, resp {'req_id': '0', 'status': 'OK'}
+2024-02-18 19:09:01,850 - root - INFO - API response: status 200, resp {'req_id': '1', 'status': 'OK'}
+2024-02-18 19:09:01,856 - root - INFO - API response: status 200, resp {'req_id': '4', 'status': 'OK'}
+2024-02-18 19:09:01,870 - root - INFO - API response: status 200, resp {'req_id': '3', 'status': 'OK'}
+2024-02-18 19:09:01,873 - root - INFO - API response: status 200, resp {'req_id': '5', 'status': 'OK'}
+2024-02-18 19:09:01,892 - root - INFO - API response: status 200, resp {'req_id': '7', 'status': 'OK'}
+2024-02-18 19:09:01,906 - root - INFO - API response: status 200, resp {'req_id': '8', 'status': 'OK'}
+2024-02-18 19:09:01,906 - root - INFO - API response: status 200, resp {'req_id': '9', 'status': 'OK'}
+2024-02-18 19:09:01,922 - root - INFO - API response: status 200, resp {'req_id': '11', 'status': 'OK'}
+2024-02-18 19:09:01,947 - root - INFO - API response: status 200, resp {'req_id': '6', 'status': 'OK'}
+2024-02-18 19:09:01,948 - root - INFO - API response: status 200, resp {'req_id': '10', 'status': 'OK'}
+2024-02-18 19:09:01,968 - root - INFO - API response: status 200, resp {'req_id': '13', 'status': 'OK'}
+2024-02-18 19:09:02,005 - root - INFO - API response: status 200, resp {'req_id': '16', 'status': 'OK'}
+2024-02-18 19:09:02,018 - root - INFO - API response: status 200, resp {'req_id': '12', 'status': 'OK'}
+2024-02-18 19:09:02,018 - root - INFO - API response: status 200, resp {'req_id': '15', 'status': 'OK'}
+2024-02-18 19:09:02,050 - root - INFO - API response: status 200, resp {'req_id': '14', 'status': 'OK'}
+2024-02-18 19:09:02,057 - root - INFO - API response: status 200, resp {'req_id': '19', 'status': 'OK'}
+2024-02-18 19:09:02,064 - root - INFO - API response: status 200, resp {'req_id': '17', 'status': 'OK'}
+2024-02-18 19:09:02,091 - root - INFO - API response: status 200, resp {'req_id': '20', 'status': 'OK'}
+2024-02-18 19:09:02,100 - root - INFO - API response: status 200, resp {'req_id': '18', 'status': 'OK'}
+2024-02-18 19:09:02,116 - root - INFO - API response: status 200, resp {'req_id': '21', 'status': 'OK'}
+2024-02-18 19:09:02,118 - root - INFO - API response: status 200, resp {'req_id': '22', 'status': 'OK'}
+2024-02-18 19:09:02,126 - root - INFO - API response: status 200, resp {'req_id': '23', 'status': 'OK'}
+2024-02-18 19:09:02,161 - root - INFO - API response: status 200, resp {'req_id': '25', 'status': 'OK'}
+2024-02-18 19:09:02,166 - root - INFO - API response: status 200, resp {'req_id': '24', 'status': 'OK'}
+2024-02-18 19:09:02,167 - root - INFO - API response: status 200, resp {'req_id': '26', 'status': 'OK'}
+2024-02-18 19:09:02,174 - root - INFO - API response: status 200, resp {'req_id': '30', 'status': 'OK'}
+2024-02-18 19:09:02,191 - root - INFO - API response: status 200, resp {'req_id': '28', 'status': 'OK'}
+2024-02-18 19:09:02,199 - root - INFO - API response: status 200, resp {'req_id': '27', 'status': 'OK'}
+2024-02-18 19:09:02,227 - root - INFO - API response: status 200, resp {'req_id': '31', 'status': 'OK'}
+2024-02-18 19:09:02,242 - root - INFO - API response: status 200, resp {'req_id': '29', 'status': 'OK'}
+2024-02-18 19:09:02,256 - root - INFO - API response: status 200, resp {'req_id': '35', 'status': 'OK'}
+2024-02-18 19:09:02,277 - root - INFO - API response: status 200, resp {'req_id': '33', 'status': 'OK'}
+2024-02-18 19:09:02,277 - root - INFO - API response: status 200, resp {'req_id': '34', 'status': 'OK'}
+2024-02-18 19:09:02,291 - root - INFO - API response: status 200, resp {'req_id': '32', 'status': 'OK'}
+2024-02-18 19:09:02,307 - root - INFO - API response: status 200, resp {'req_id': '39', 'status': 'OK'}
+2024-02-18 19:09:02,314 - root - INFO - API response: status 200, resp {'req_id': '36', 'status': 'OK'}
+2024-02-18 19:09:02,320 - root - INFO - API response: status 200, resp {'req_id': '40', 'status': 'OK'}
+2024-02-18 19:09:02,342 - root - INFO - API response: status 200, resp {'req_id': '37', 'status': 'OK'}
+2024-02-18 19:09:02,355 - root - INFO - API response: status 200, resp {'req_id': '42', 'status': 'OK'}
+2024-02-18 19:09:02,370 - root - INFO - API response: status 200, resp {'req_id': '38', 'status': 'OK'}
+2024-02-18 19:09:02,376 - root - INFO - API response: status 200, resp {'req_id': '41', 'status': 'OK'}
+2024-02-18 19:09:02,406 - root - INFO - API response: status 200, resp {'req_id': '46', 'status': 'OK'}
+2024-02-18 19:09:02,407 - root - INFO - API response: status 200, resp {'req_id': '44', 'status': 'OK'}
+2024-02-18 19:09:02,409 - root - INFO - API response: status 200, resp {'req_id': '47', 'status': 'OK'}
+2024-02-18 19:09:02,411 - root - INFO - API response: status 200, resp {'req_id': '43', 'status': 'OK'}
+2024-02-18 19:09:02,453 - root - INFO - API response: status 200, resp {'req_id': '48', 'status': 'OK'}
+2024-02-18 19:09:02,454 - root - INFO - API response: status 200, resp {'req_id': '45', 'status': 'OK'}
+2024-02-18 19:09:02,454 - root - INFO - API response: status 200, resp {'req_id': '51', 'status': 'OK'}
+2024-02-18 19:09:02,479 - root - INFO - API response: status 200, resp {'req_id': '50', 'status': 'OK'}
+2024-02-18 19:09:02,488 - root - INFO - API response: status 200, resp {'req_id': '49', 'status': 'OK'}
+2024-02-18 19:09:02,519 - root - INFO - API response: status 200, resp {'req_id': '53', 'status': 'OK'}
+2024-02-18 19:09:02,534 - root - INFO - API response: status 200, resp {'req_id': '52', 'status': 'OK'}
+2024-02-18 19:09:02,535 - root - INFO - API response: status 200, resp {'req_id': '54', 'status': 'OK'}
+2024-02-18 19:09:02,536 - root - INFO - API response: status 200, resp {'req_id': '56', 'status': 'OK'}
+2024-02-18 19:09:02,538 - root - INFO - API response: status 200, resp {'req_id': '55', 'status': 'OK'}
+2024-02-18 19:09:02,574 - root - INFO - API response: status 200, resp {'req_id': '60', 'status': 'OK'}
+2024-02-18 19:09:02,582 - root - INFO - API response: status 200, resp {'req_id': '61', 'status': 'OK'}
+2024-02-18 19:09:02,606 - root - INFO - API response: status 200, resp {'req_id': '59', 'status': 'OK'}
+2024-02-18 19:09:02,607 - root - INFO - API response: status 200, resp {'req_id': '57', 'status': 'OK'}
+2024-02-18 19:09:02,624 - root - INFO - API response: status 200, resp {'req_id': '58', 'status': 'OK'}
+2024-02-18 19:09:02,632 - root - INFO - API response: status 200, resp {'req_id': '65', 'status': 'OK'}
+2024-02-18 19:09:02,649 - root - INFO - API response: status 200, resp {'req_id': '63', 'status': 'OK'}
+2024-02-18 19:09:02,652 - root - INFO - API response: status 200, resp {'req_id': '62', 'status': 'OK'}
+2024-02-18 19:09:02,684 - root - INFO - API response: status 200, resp {'req_id': '66', 'status': 'OK'}
+2024-02-18 19:09:02,688 - root - INFO - API response: status 200, resp {'req_id': '64', 'status': 'OK'}
+2024-02-18 19:09:02,688 - root - INFO - API response: status 200, resp {'req_id': '69', 'status': 'OK'}
+2024-02-18 19:09:02,715 - root - INFO - API response: status 200, resp {'req_id': '68', 'status': 'OK'}
+2024-02-18 19:09:02,733 - root - INFO - API response: status 200, resp {'req_id': '71', 'status': 'OK'}
+2024-02-18 19:09:02,733 - root - INFO - API response: status 200, resp {'req_id': '72', 'status': 'OK'}
+2024-02-18 19:09:02,741 - root - INFO - API response: status 200, resp {'req_id': '67', 'status': 'OK'}
+2024-02-18 19:09:02,766 - root - INFO - API response: status 200, resp {'req_id': '70', 'status': 'OK'}
+2024-02-18 19:09:02,774 - root - INFO - API response: status 200, resp {'req_id': '74', 'status': 'OK'}
+2024-02-18 19:09:02,776 - root - INFO - API response: status 200, resp {'req_id': '73', 'status': 'OK'}
+2024-02-18 19:09:02,812 - root - INFO - API response: status 200, resp {'req_id': '76', 'status': 'OK'}
+2024-02-18 19:09:02,812 - root - INFO - API response: status 200, resp {'req_id': '75', 'status': 'OK'}
+2024-02-18 19:09:02,825 - root - INFO - API response: status 200, resp {'req_id': '79', 'status': 'OK'}
+2024-02-18 19:09:02,858 - root - INFO - API response: status 200, resp {'req_id': '77', 'status': 'OK'}
+2024-02-18 19:09:02,860 - root - INFO - API response: status 200, resp {'req_id': '80', 'status': 'OK'}
+2024-02-18 19:09:02,861 - root - INFO - API response: status 200, resp {'req_id': '78', 'status': 'OK'}
+2024-02-18 19:09:02,889 - root - INFO - API response: status 200, resp {'req_id': '85', 'status': 'OK'}
+2024-02-18 19:09:02,890 - root - INFO - API response: status 200, resp {'req_id': '81', 'status': 'OK'}
+2024-02-18 19:09:02,907 - root - INFO - API response: status 200, resp {'req_id': '82', 'status': 'OK'}
+2024-02-18 19:09:02,916 - root - INFO - API response: status 200, resp {'req_id': '83', 'status': 'OK'}
+2024-02-18 19:09:02,941 - root - INFO - API response: status 200, resp {'req_id': '87', 'status': 'OK'}
+2024-02-18 19:09:02,959 - root - INFO - API response: status 200, resp {'req_id': '84', 'status': 'OK'}
+2024-02-18 19:09:02,972 - root - INFO - API response: status 200, resp {'req_id': '90', 'status': 'OK'}
+2024-02-18 19:09:02,975 - root - INFO - API response: status 200, resp {'req_id': '89', 'status': 'OK'}
+2024-02-18 19:09:02,994 - root - INFO - API response: status 200, resp {'req_id': '86', 'status': 'OK'}
+2024-02-18 19:09:02,995 - root - INFO - API response: status 200, resp {'req_id': '91', 'status': 'OK'}
+2024-02-18 19:09:03,009 - root - INFO - API response: status 200, resp {'req_id': '88', 'status': 'OK'}
+2024-02-18 19:09:03,041 - root - INFO - API response: status 200, resp {'req_id': '93', 'status': 'OK'}
+2024-02-18 19:09:03,060 - root - INFO - API response: status 200, resp {'req_id': '94', 'status': 'OK'}
+2024-02-18 19:09:03,062 - root - INFO - API response: status 200, resp {'req_id': '95', 'status': 'OK'}
+2024-02-18 19:09:03,066 - root - INFO - API response: status 200, resp {'req_id': '92', 'status': 'OK'}
+2024-02-18 19:09:03,089 - root - INFO - API response: status 200, resp {'req_id': '96', 'status': 'OK'}
+2024-02-18 19:09:03,092 - root - INFO - API response: status 200, resp {'req_id': '99', 'status': 'OK'}
+2024-02-18 19:09:03,124 - root - INFO - API response: status 200, resp {'req_id': '98', 'status': 'OK'}
+2024-02-18 19:09:03,126 - root - INFO - API response: status 200, resp {'req_id': '100', 'status': 'OK'}
+2024-02-18 19:09:03,130 - root - INFO - API response: status 200, resp {'req_id': '101', 'status': 'OK'}
+2024-02-18 19:09:03,130 - root - INFO - API response: status 200, resp {'req_id': '97', 'status': 'OK'}
+2024-02-18 19:09:03,166 - root - INFO - API response: status 200, resp {'req_id': '102', 'status': 'OK'}
+2024-02-18 19:09:03,193 - root - INFO - API response: status 200, resp {'req_id': '103', 'status': 'OK'}
+2024-02-18 19:09:03,193 - root - INFO - API response: status 200, resp {'req_id': '106', 'status': 'OK'}
+2024-02-18 19:09:03,196 - root - INFO - API response: status 200, resp {'req_id': '104', 'status': 'OK'}
+2024-02-18 19:09:03,214 - root - INFO - API response: status 200, resp {'req_id': '108', 'status': 'OK'}
+2024-02-18 19:09:03,232 - root - INFO - API response: status 200, resp {'req_id': '105', 'status': 'OK'}
+2024-02-18 19:09:03,233 - root - INFO - API response: status 200, resp {'req_id': '107', 'status': 'OK'}
+2024-02-18 19:09:03,245 - root - INFO - API response: status 200, resp {'req_id': '110', 'status': 'OK'}
+2024-02-18 19:09:03,259 - root - INFO - API response: status 200, resp {'req_id': '109', 'status': 'OK'}
+2024-02-18 19:09:03,274 - root - INFO - API response: status 200, resp {'req_id': '112', 'status': 'OK'}
+2024-02-18 19:09:03,280 - root - INFO - API response: status 200, resp {'req_id': '115', 'status': 'OK'}
+2024-02-18 19:09:03,291 - root - INFO - API response: status 200, resp {'req_id': '114', 'status': 'OK'}
+2024-02-18 19:09:03,311 - root - INFO - API response: status 200, resp {'req_id': '113', 'status': 'OK'}
+2024-02-18 19:09:03,317 - root - INFO - API response: status 200, resp {'req_id': '111', 'status': 'OK'}
+2024-02-18 19:09:03,333 - root - INFO - API response: status 200, resp {'req_id': '116', 'status': 'OK'}
+2024-02-18 19:09:03,338 - root - INFO - API response: status 200, resp {'req_id': '120', 'status': 'OK'}
+2024-02-18 19:09:03,378 - root - INFO - API response: status 200, resp {'req_id': '118', 'status': 'OK'}
+2024-02-18 19:09:03,379 - root - INFO - API response: status 200, resp {'req_id': '119', 'status': 'OK'}
+2024-02-18 19:09:03,386 - root - INFO - API response: status 200, resp {'req_id': '117', 'status': 'OK'}
+2024-02-18 19:09:03,407 - root - INFO - API response: status 200, resp {'req_id': '122', 'status': 'OK'}
+2024-02-18 19:09:03,412 - root - INFO - API response: status 200, resp {'req_id': '123', 'status': 'OK'}
+2024-02-18 19:09:03,416 - root - INFO - API response: status 200, resp {'req_id': '121', 'status': 'OK'}
+2024-02-18 19:09:03,433 - root - INFO - API response: status 200, resp {'req_id': '125', 'status': 'OK'}
+2024-02-18 19:09:03,458 - root - INFO - API response: status 200, resp {'req_id': '128', 'status': 'OK'}
+2024-02-18 19:09:03,461 - root - INFO - API response: status 200, resp {'req_id': '127', 'status': 'OK'}
+2024-02-18 19:09:03,466 - root - INFO - API response: status 200, resp {'req_id': '124', 'status': 'OK'}
+2024-02-18 19:09:03,484 - root - INFO - API response: status 200, resp {'req_id': '126', 'status': 'OK'}
+2024-02-18 19:09:03,506 - root - INFO - API response: status 200, resp {'req_id': '129', 'status': 'OK'}
+2024-02-18 19:09:03,506 - root - INFO - API response: status 200, resp {'req_id': '133', 'status': 'OK'}
+2024-02-18 19:09:03,510 - root - INFO - API response: status 200, resp {'req_id': '132', 'status': 'OK'}
+2024-02-18 19:09:03,524 - root - INFO - API response: status 200, resp {'req_id': '130', 'status': 'OK'}
+2024-02-18 19:09:03,551 - root - INFO - API response: status 200, resp {'req_id': '134', 'status': 'OK'}
+2024-02-18 19:09:03,567 - root - INFO - API response: status 200, resp {'req_id': '131', 'status': 'OK'}
+2024-02-18 19:09:03,569 - root - INFO - API response: status 200, resp {'req_id': '137', 'status': 'OK'}
+2024-02-18 19:09:03,569 - root - INFO - API response: status 200, resp {'req_id': '135', 'status': 'OK'}
+2024-02-18 19:09:03,573 - root - INFO - API response: status 200, resp {'req_id': '136', 'status': 'OK'}
+2024-02-18 19:09:03,587 - root - INFO - API response: status 200, resp {'req_id': '138', 'status': 'OK'}
+2024-02-18 19:09:03,608 - root - INFO - API response: status 200, resp {'req_id': '142', 'status': 'OK'}
+2024-02-18 19:09:03,631 - root - INFO - API response: status 200, resp {'req_id': '140', 'status': 'OK'}
+2024-02-18 19:09:03,633 - root - INFO - API response: status 200, resp {'req_id': '141', 'status': 'OK'}
+2024-02-18 19:09:03,641 - root - INFO - API response: status 200, resp {'req_id': '139', 'status': 'OK'}
+2024-02-18 19:09:03,672 - root - INFO - API response: status 200, resp {'req_id': '144', 'status': 'OK'}
+2024-02-18 19:09:03,678 - root - INFO - API response: status 200, resp {'req_id': '143', 'status': 'OK'}
+2024-02-18 19:09:03,703 - root - INFO - API response: status 200, resp {'req_id': '146', 'status': 'OK'}
+2024-02-18 19:09:03,715 - root - INFO - API response: status 200, resp {'req_id': '149', 'status': 'OK'}
+2024-02-18 19:09:03,716 - root - INFO - API response: status 200, resp {'req_id': '145', 'status': 'OK'}
+2024-02-18 19:09:03,733 - root - INFO - API response: status 200, resp {'req_id': '147', 'status': 'OK'}
+2024-02-18 19:09:03,749 - root - INFO - API response: status 200, resp {'req_id': '152', 'status': 'OK'}
+2024-02-18 19:09:03,750 - root - INFO - API response: status 200, resp {'req_id': '148', 'status': 'OK'}
+2024-02-18 19:09:03,767 - root - INFO - API response: status 200, resp {'req_id': '150', 'status': 'OK'}
+2024-02-18 19:09:03,790 - root - INFO - API response: status 200, resp {'req_id': '151', 'status': 'OK'}
+2024-02-18 19:09:03,825 - root - INFO - API response: status 200, resp {'req_id': '154', 'status': 'OK'}
+2024-02-18 19:09:03,825 - root - INFO - API response: status 200, resp {'req_id': '153', 'status': 'OK'}
+2024-02-18 19:09:03,845 - root - INFO - API response: status 200, resp {'req_id': '155', 'status': 'OK'}
+2024-02-18 19:09:03,863 - root - INFO - API response: status 200, resp {'req_id': '156', 'status': 'OK'}
+2024-02-18 19:09:03,874 - root - INFO - API response: status 200, resp {'req_id': '157', 'status': 'OK'}
+2024-02-18 19:09:03,883 - root - INFO - API response: status 200, resp {'req_id': '158', 'status': 'OK'}
+2024-02-18 19:09:03,893 - root - INFO - API response: status 200, resp {'req_id': '162', 'status': 'OK'}
+2024-02-18 19:09:03,893 - root - INFO - API response: status 200, resp {'req_id': '160', 'status': 'OK'}
+2024-02-18 19:09:03,899 - root - INFO - API response: status 200, resp {'req_id': '159', 'status': 'OK'}
+2024-02-18 19:09:03,922 - root - INFO - API response: status 200, resp {'req_id': '161', 'status': 'OK'}
+2024-02-18 19:09:03,927 - root - INFO - API response: status 200, resp {'req_id': '166', 'status': 'OK'}
+2024-02-18 19:09:03,972 - root - INFO - API response: status 200, resp {'req_id': '163', 'status': 'OK'}
+2024-02-18 19:09:03,972 - root - INFO - API response: status 200, resp {'req_id': '164', 'status': 'OK'}
+2024-02-18 19:09:03,972 - root - INFO - API response: status 200, resp {'req_id': '165', 'status': 'OK'}
+2024-02-18 19:09:03,989 - root - INFO - API response: status 200, resp {'req_id': '170', 'status': 'OK'}
+2024-02-18 19:09:03,989 - root - INFO - API response: status 200, resp {'req_id': '167', 'status': 'OK'}
+2024-02-18 19:09:04,001 - root - INFO - API response: status 200, resp {'req_id': '169', 'status': 'OK'}
+2024-02-18 19:09:04,007 - root - INFO - API response: status 200, resp {'req_id': '168', 'status': 'OK'}
+2024-02-18 19:09:04,028 - root - INFO - API response: status 200, resp {'req_id': '171', 'status': 'OK'}
+2024-02-18 19:09:04,046 - root - INFO - API response: status 200, resp {'req_id': '173', 'status': 'OK'}
+2024-02-18 19:09:04,074 - root - INFO - API response: status 200, resp {'req_id': '174', 'status': 'OK'}
+2024-02-18 19:09:04,077 - root - INFO - API response: status 200, resp {'req_id': '176', 'status': 'OK'}
+2024-02-18 19:09:04,089 - root - INFO - API response: status 200, resp {'req_id': '172', 'status': 'OK'}
+2024-02-18 19:09:04,090 - root - INFO - API response: status 200, resp {'req_id': '175', 'status': 'OK'}
+2024-02-18 19:09:04,106 - root - INFO - API response: status 200, resp {'req_id': '177', 'status': 'OK'}
+2024-02-18 19:09:04,112 - root - INFO - API response: status 200, resp {'req_id': '179', 'status': 'OK'}
+2024-02-18 19:09:04,112 - root - INFO - API response: status 200, resp {'req_id': '180', 'status': 'OK'}
+2024-02-18 19:09:04,130 - root - INFO - API response: status 200, resp {'req_id': '181', 'status': 'OK'}
+2024-02-18 19:09:04,165 - root - INFO - API response: status 200, resp {'req_id': '178', 'status': 'OK'}
+2024-02-18 19:09:04,174 - root - INFO - API response: status 200, resp {'req_id': '182', 'status': 'OK'}
+2024-02-18 19:09:04,205 - root - INFO - API response: status 200, resp {'req_id': '185', 'status': 'OK'}
+2024-02-18 19:09:04,205 - root - INFO - API response: status 200, resp {'req_id': '183', 'status': 'OK'}
+2024-02-18 19:09:04,217 - root - INFO - API response: status 200, resp {'req_id': '187', 'status': 'OK'}
+2024-02-18 19:09:04,220 - root - INFO - API response: status 200, resp {'req_id': '186', 'status': 'OK'}
+2024-02-18 19:09:04,224 - root - INFO - API response: status 200, resp {'req_id': '184', 'status': 'OK'}
+2024-02-18 19:09:04,231 - root - INFO - API response: status 200, resp {'req_id': '189', 'status': 'OK'}
+2024-02-18 19:09:04,237 - root - INFO - API response: status 200, resp {'req_id': '188', 'status': 'OK'}
+2024-02-18 19:09:04,237 - root - INFO - API response: status 200, resp {'req_id': '190', 'status': 'OK'}
+2024-02-18 19:09:04,249 - root - INFO - API response: status 200, resp {'req_id': '191', 'status': 'OK'}
+2024-02-18 19:09:04,287 - root - INFO - API response: status 200, resp {'req_id': '192', 'status': 'OK'}
+2024-02-18 19:09:04,291 - root - INFO - API response: status 200, resp {'req_id': '195', 'status': 'OK'}
+2024-02-18 19:09:04,308 - root - INFO - API response: status 200, resp {'req_id': '193', 'status': 'OK'}
+2024-02-18 19:09:04,310 - root - INFO - API response: status 200, resp {'req_id': '197', 'status': 'OK'}
+2024-02-18 19:09:04,310 - root - INFO - API response: status 200, resp {'req_id': '194', 'status': 'OK'}
+2024-02-18 19:09:04,316 - root - INFO - API response: status 200, resp {'req_id': '199', 'status': 'OK'}
+2024-02-18 19:09:04,326 - root - INFO - API response: status 200, resp {'req_id': '196', 'status': 'OK'}
+2024-02-18 19:09:04,359 - root - INFO - API response: status 200, resp {'req_id': '201', 'status': 'OK'}
+2024-02-18 19:09:04,374 - root - INFO - API response: status 200, resp {'req_id': '203', 'status': 'OK'}
+2024-02-18 19:09:04,399 - root - INFO - API response: status 200, resp {'req_id': '202', 'status': 'OK'}
+2024-02-18 19:09:04,409 - root - INFO - API response: status 200, resp {'req_id': '200', 'status': 'OK'}
+2024-02-18 19:09:04,409 - root - INFO - API response: status 200, resp {'req_id': '198', 'status': 'OK'}
+2024-02-18 19:09:04,436 - root - INFO - API response: status 200, resp {'req_id': '204', 'status': 'OK'}
+2024-02-18 19:09:04,439 - root - INFO - API response: status 200, resp {'req_id': '206', 'status': 'OK'}
+2024-02-18 19:09:04,449 - root - INFO - API response: status 200, resp {'req_id': '208', 'status': 'OK'}
+2024-02-18 19:09:04,456 - root - INFO - API response: status 200, resp {'req_id': '205', 'status': 'OK'}
+2024-02-18 19:09:04,486 - root - INFO - API response: status 200, resp {'req_id': '207', 'status': 'OK'}
+2024-02-18 19:09:04,498 - root - INFO - API response: status 200, resp {'req_id': '209', 'status': 'OK'}
+2024-02-18 19:09:04,501 - root - INFO - API response: status 200, resp {'req_id': '210', 'status': 'OK'}
+2024-02-18 19:09:04,522 - root - INFO - API response: status 200, resp {'req_id': '212', 'status': 'OK'}
+2024-02-18 19:09:04,526 - root - INFO - API response: status 200, resp {'req_id': '211', 'status': 'OK'}
+2024-02-18 19:09:04,543 - root - INFO - API response: status 200, resp {'req_id': '215', 'status': 'OK'}
+2024-02-18 19:09:04,557 - root - INFO - API response: status 200, resp {'req_id': '214', 'status': 'OK'}
+2024-02-18 19:09:04,558 - root - INFO - API response: status 200, resp {'req_id': '213', 'status': 'OK'}
+2024-02-18 19:09:04,580 - root - INFO - API response: status 200, resp {'req_id': '217', 'status': 'OK'}
+2024-02-18 19:09:04,583 - root - INFO - API response: status 200, resp {'req_id': '216', 'status': 'OK'}
+2024-02-18 19:09:04,602 - root - INFO - API response: status 200, resp {'req_id': '218', 'status': 'OK'}
+2024-02-18 19:09:04,604 - root - INFO - API response: status 200, resp {'req_id': '222', 'status': 'OK'}
+2024-02-18 19:09:04,607 - root - INFO - API response: status 200, resp {'req_id': '220', 'status': 'OK'}
+2024-02-18 19:09:04,622 - root - INFO - API response: status 200, resp {'req_id': '219', 'status': 'OK'}
+2024-02-18 19:09:04,631 - root - INFO - API response: status 200, resp {'req_id': '221', 'status': 'OK'}
+2024-02-18 19:09:04,656 - root - INFO - API response: status 200, resp {'req_id': '225', 'status': 'OK'}
+2024-02-18 19:09:04,658 - root - INFO - API response: status 200, resp {'req_id': '227', 'status': 'OK'}
+2024-02-18 19:09:04,674 - root - INFO - API response: status 200, resp {'req_id': '223', 'status': 'OK'}
+2024-02-18 19:09:04,683 - root - INFO - API response: status 200, resp {'req_id': '230', 'status': 'OK'}
+2024-02-18 19:09:04,687 - root - INFO - API response: status 200, resp {'req_id': '226', 'status': 'OK'}
+2024-02-18 19:09:04,711 - root - INFO - API response: status 200, resp {'req_id': '228', 'status': 'OK'}
+2024-02-18 19:09:04,717 - root - INFO - API response: status 200, resp {'req_id': '224', 'status': 'OK'}
+2024-02-18 19:09:04,718 - root - INFO - API response: status 200, resp {'req_id': '233', 'status': 'OK'}
+2024-02-18 19:09:04,738 - root - INFO - API response: status 200, resp {'req_id': '234', 'status': 'OK'}
+2024-02-18 19:09:04,741 - root - INFO - API response: status 200, resp {'req_id': '229', 'status': 'OK'}
+2024-02-18 19:09:04,757 - root - INFO - API response: status 200, resp {'req_id': '232', 'status': 'OK'}
+2024-02-18 19:09:04,762 - root - INFO - API response: status 200, resp {'req_id': '231', 'status': 'OK'}
+2024-02-18 19:09:04,822 - root - INFO - API response: status 200, resp {'req_id': '235', 'status': 'OK'}
+2024-02-18 19:09:04,822 - root - INFO - API response: status 200, resp {'req_id': '237', 'status': 'OK'}
+2024-02-18 19:09:04,823 - root - INFO - API response: status 200, resp {'req_id': '236', 'status': 'OK'}
+2024-02-18 19:09:04,823 - root - INFO - API response: status 200, resp {'req_id': '239', 'status': 'OK'}
+2024-02-18 19:09:04,828 - root - INFO - API response: status 200, resp {'req_id': '238', 'status': 'OK'}
+2024-02-18 19:09:04,875 - root - INFO - API response: status 200, resp {'req_id': '241', 'status': 'OK'}
+2024-02-18 19:09:04,884 - root - INFO - API response: status 200, resp {'req_id': '243', 'status': 'OK'}
+2024-02-18 19:09:04,885 - root - INFO - API response: status 200, resp {'req_id': '244', 'status': 'OK'}
+2024-02-18 19:09:04,891 - root - INFO - API response: status 200, resp {'req_id': '242', 'status': 'OK'}
+2024-02-18 19:09:04,913 - root - INFO - API response: status 200, resp {'req_id': '240', 'status': 'OK'}
+2024-02-18 19:09:04,942 - root - INFO - API response: status 200, resp {'req_id': '246', 'status': 'OK'}
+2024-02-18 19:09:04,955 - root - INFO - API response: status 200, resp {'req_id': '248', 'status': 'OK'}
+2024-02-18 19:09:04,955 - root - INFO - API response: status 200, resp {'req_id': '245', 'status': 'OK'}
+2024-02-18 19:09:04,956 - root - INFO - API response: status 200, resp {'req_id': '249', 'status': 'OK'}
+2024-02-18 19:09:04,967 - root - INFO - API response: status 200, resp {'req_id': '247', 'status': 'OK'}
+2024-02-18 19:09:04,987 - root - INFO - API response: status 200, resp {'req_id': '252', 'status': 'OK'}
+2024-02-18 19:09:04,989 - root - INFO - API response: status 200, resp {'req_id': '250', 'status': 'OK'}
+2024-02-18 19:09:05,002 - root - INFO - API response: status 200, resp {'req_id': '251', 'status': 'OK'}
+2024-02-18 19:09:05,017 - root - INFO - API response: status 200, resp {'req_id': '256', 'status': 'OK'}
+2024-02-18 19:09:05,018 - root - INFO - API response: status 200, resp {'req_id': '253', 'status': 'OK'}
+2024-02-18 19:09:05,034 - root - INFO - API response: status 200, resp {'req_id': '255', 'status': 'OK'}
+2024-02-18 19:09:05,041 - root - INFO - API response: status 200, resp {'req_id': '254', 'status': 'OK'}
+2024-02-18 19:09:05,082 - root - INFO - API response: status 200, resp {'req_id': '258', 'status': 'OK'}
+2024-02-18 19:09:05,090 - root - INFO - API response: status 200, resp {'req_id': '257', 'status': 'OK'}
+2024-02-18 19:09:05,098 - root - INFO - API response: status 200, resp {'req_id': '261', 'status': 'OK'}
+2024-02-18 19:09:05,098 - root - INFO - API response: status 200, resp {'req_id': '260', 'status': 'OK'}
+2024-02-18 19:09:05,108 - root - INFO - API response: status 200, resp {'req_id': '259', 'status': 'OK'}
+2024-02-18 19:09:05,112 - root - INFO - API response: status 200, resp {'req_id': '262', 'status': 'OK'}
+2024-02-18 19:09:05,151 - root - INFO - API response: status 200, resp {'req_id': '264', 'status': 'OK'}
+2024-02-18 19:09:05,161 - root - INFO - API response: status 200, resp {'req_id': '266', 'status': 'OK'}
+2024-02-18 19:09:05,163 - root - INFO - API response: status 200, resp {'req_id': '268', 'status': 'OK'}
+2024-02-18 19:09:05,170 - root - INFO - API response: status 200, resp {'req_id': '265', 'status': 'OK'}
+2024-02-18 19:09:05,187 - root - INFO - API response: status 200, resp {'req_id': '263', 'status': 'OK'}
+2024-02-18 19:09:05,212 - root - INFO - API response: status 200, resp {'req_id': '269', 'status': 'OK'}
+2024-02-18 19:09:05,228 - root - INFO - API response: status 200, resp {'req_id': '272', 'status': 'OK'}
+2024-02-18 19:09:05,233 - root - INFO - API response: status 200, resp {'req_id': '267', 'status': 'OK'}
+2024-02-18 19:09:05,253 - root - INFO - API response: status 200, resp {'req_id': '270', 'status': 'OK'}
+2024-02-18 19:09:05,262 - root - INFO - API response: status 200, resp {'req_id': '273', 'status': 'OK'}
+2024-02-18 19:09:05,274 - root - INFO - API response: status 200, resp {'req_id': '271', 'status': 'OK'}
+2024-02-18 19:09:05,286 - root - INFO - API response: status 200, resp {'req_id': '277', 'status': 'OK'}
+2024-02-18 19:09:05,288 - root - INFO - API response: status 200, resp {'req_id': '276', 'status': 'OK'}
+2024-02-18 19:09:05,311 - root - INFO - API response: status 200, resp {'req_id': '275', 'status': 'OK'}
+2024-02-18 19:09:05,324 - root - INFO - API response: status 200, resp {'req_id': '274', 'status': 'OK'}
+2024-02-18 19:09:05,332 - root - INFO - API response: status 200, resp {'req_id': '279', 'status': 'OK'}
+2024-02-18 19:09:05,333 - root - INFO - API response: status 200, resp {'req_id': '278', 'status': 'OK'}
+2024-02-18 19:09:05,358 - root - INFO - API response: status 200, resp {'req_id': '281', 'status': 'OK'}
+2024-02-18 19:09:05,378 - root - INFO - API response: status 200, resp {'req_id': '280', 'status': 'OK'}
+2024-02-18 19:09:05,395 - root - INFO - API response: status 200, resp {'req_id': '282', 'status': 'OK'}
+2024-02-18 19:09:05,412 - root - INFO - API response: status 200, resp {'req_id': '286', 'status': 'OK'}
+2024-02-18 19:09:05,417 - root - INFO - API response: status 200, resp {'req_id': '283', 'status': 'OK'}
+2024-02-18 19:09:05,422 - root - INFO - API response: status 200, resp {'req_id': '287', 'status': 'OK'}
+2024-02-18 19:09:05,428 - root - INFO - API response: status 200, resp {'req_id': '285', 'status': 'OK'}
+2024-02-18 19:09:05,432 - root - INFO - API response: status 200, resp {'req_id': '284', 'status': 'OK'}
+2024-02-18 19:09:05,488 - root - INFO - API response: status 200, resp {'req_id': '289', 'status': 'OK'}
+2024-02-18 19:09:05,492 - root - INFO - API response: status 200, resp {'req_id': '288', 'status': 'OK'}
+2024-02-18 19:09:05,525 - root - INFO - API response: status 200, resp {'req_id': '294', 'status': 'OK'}
+2024-02-18 19:09:05,528 - root - INFO - API response: status 200, resp {'req_id': '291', 'status': 'OK'}
+2024-02-18 19:09:05,529 - root - INFO - API response: status 200, resp {'req_id': '292', 'status': 'OK'}
+2024-02-18 19:09:05,529 - root - INFO - API response: status 200, resp {'req_id': '290', 'status': 'OK'}
+2024-02-18 19:09:05,542 - root - INFO - API response: status 200, resp {'req_id': '293', 'status': 'OK'}
+2024-02-18 19:09:05,576 - root - INFO - API response: status 200, resp {'req_id': '297', 'status': 'OK'}
+2024-02-18 19:09:05,605 - root - INFO - API response: status 200, resp {'req_id': '298', 'status': 'OK'}
+2024-02-18 19:09:05,608 - root - INFO - API response: status 200, resp {'req_id': '296', 'status': 'OK'}
+2024-02-18 19:09:05,616 - root - INFO - API response: status 200, resp {'req_id': '299', 'status': 'OK'}
+2024-02-18 19:09:05,637 - root - INFO - API response: status 200, resp {'req_id': '295', 'status': 'OK'}
+2024-02-18 19:09:05,643 - root - INFO - API response: status 200, resp {'req_id': '300', 'status': 'OK'}
+2024-02-18 19:09:05,665 - root - INFO - API response: status 200, resp {'req_id': '302', 'status': 'OK'}
+2024-02-18 19:09:05,675 - root - INFO - API response: status 200, resp {'req_id': '301', 'status': 'OK'}
+2024-02-18 19:09:05,700 - root - INFO - API response: status 200, resp {'req_id': '305', 'status': 'OK'}
+2024-02-18 19:09:05,703 - root - INFO - API response: status 200, resp {'req_id': '303', 'status': 'OK'}
+2024-02-18 19:09:05,727 - root - INFO - API response: status 200, resp {'req_id': '307', 'status': 'OK'}
+2024-02-18 19:09:05,728 - root - INFO - API response: status 200, resp {'req_id': '309', 'status': 'OK'}
+2024-02-18 19:09:05,730 - root - INFO - API response: status 200, resp {'req_id': '306', 'status': 'OK'}
+2024-02-18 19:09:05,741 - root - INFO - API response: status 200, resp {'req_id': '308', 'status': 'OK'}
+2024-02-18 19:09:05,744 - root - INFO - API response: status 200, resp {'req_id': '304', 'status': 'OK'}
+2024-02-18 19:09:05,774 - root - INFO - API response: status 200, resp {'req_id': '314', 'status': 'OK'}
+2024-02-18 19:09:05,783 - root - INFO - API response: status 200, resp {'req_id': '310', 'status': 'OK'}
+2024-02-18 19:09:05,791 - root - INFO - API response: status 200, resp {'req_id': '312', 'status': 'OK'}
+2024-02-18 19:09:05,805 - root - INFO - API response: status 200, resp {'req_id': '313', 'status': 'OK'}
+2024-02-18 19:09:05,822 - root - INFO - API response: status 200, resp {'req_id': '317', 'status': 'OK'}
+2024-02-18 19:09:05,825 - root - INFO - API response: status 200, resp {'req_id': '311', 'status': 'OK'}
+2024-02-18 19:09:05,846 - root - INFO - API response: status 200, resp {'req_id': '318', 'status': 'OK'}
+2024-02-18 19:09:05,849 - root - INFO - API response: status 200, resp {'req_id': '315', 'status': 'OK'}
+2024-02-18 19:09:05,850 - root - INFO - API response: status 200, resp {'req_id': '316', 'status': 'OK'}
+2024-02-18 19:09:05,874 - root - INFO - API response: status 200, resp {'req_id': '319', 'status': 'OK'}
+2024-02-18 19:09:05,902 - root - INFO - API response: status 200, resp {'req_id': '321', 'status': 'OK'}
+2024-02-18 19:09:05,907 - root - INFO - API response: status 200, resp {'req_id': '322', 'status': 'OK'}
+2024-02-18 19:09:05,911 - root - INFO - API response: status 200, resp {'req_id': '323', 'status': 'OK'}
+2024-02-18 19:09:05,916 - root - INFO - API response: status 200, resp {'req_id': '320', 'status': 'OK'}
+2024-02-18 19:09:05,931 - root - INFO - API response: status 200, resp {'req_id': '327', 'status': 'OK'}
+2024-02-18 19:09:05,935 - root - INFO - API response: status 200, resp {'req_id': '326', 'status': 'OK'}
+2024-02-18 19:09:05,944 - root - INFO - API response: status 200, resp {'req_id': '328', 'status': 'OK'}
+2024-02-18 19:09:05,958 - root - INFO - API response: status 200, resp {'req_id': '324', 'status': 'OK'}
+2024-02-18 19:09:05,974 - root - INFO - API response: status 200, resp {'req_id': '325', 'status': 'OK'}
+2024-02-18 19:09:06,032 - root - INFO - API response: status 200, resp {'req_id': '331', 'status': 'OK'}
+2024-02-18 19:09:06,041 - root - INFO - API response: status 200, resp {'req_id': '329', 'status': 'OK'}
+2024-02-18 19:09:06,044 - root - INFO - API response: status 200, resp {'req_id': '332', 'status': 'OK'}
+2024-02-18 19:09:06,049 - root - INFO - API response: status 200, resp {'req_id': '333', 'status': 'OK'}
+2024-02-18 19:09:06,058 - root - INFO - API response: status 200, resp {'req_id': '330', 'status': 'OK'}
+2024-02-18 19:09:06,084 - root - INFO - API response: status 200, resp {'req_id': '335', 'status': 'OK'}
+2024-02-18 19:09:06,087 - root - INFO - API response: status 200, resp {'req_id': '336', 'status': 'OK'}
+2024-02-18 19:09:06,111 - root - INFO - API response: status 200, resp {'req_id': '338', 'status': 'OK'}
+2024-02-18 19:09:06,112 - root - INFO - API response: status 200, resp {'req_id': '334', 'status': 'OK'}
+2024-02-18 19:09:06,118 - root - INFO - API response: status 200, resp {'req_id': '340', 'status': 'OK'}
+2024-02-18 19:09:06,127 - root - INFO - API response: status 200, resp {'req_id': '337', 'status': 'OK'}
+2024-02-18 19:09:06,146 - root - INFO - API response: status 200, resp {'req_id': '342', 'status': 'OK'}
+2024-02-18 19:09:06,166 - root - INFO - API response: status 200, resp {'req_id': '339', 'status': 'OK'}
+2024-02-18 19:09:06,174 - root - INFO - API response: status 200, resp {'req_id': '343', 'status': 'OK'}
+2024-02-18 19:09:06,186 - root - INFO - API response: status 200, resp {'req_id': '344', 'status': 'OK'}
+2024-02-18 19:09:06,193 - root - INFO - API response: status 200, resp {'req_id': '341', 'status': 'OK'}
+2024-02-18 19:09:06,214 - root - INFO - API response: status 200, resp {'req_id': '346', 'status': 'OK'}
+2024-02-18 19:09:06,225 - root - INFO - API response: status 200, resp {'req_id': '345', 'status': 'OK'}
+2024-02-18 19:09:06,247 - root - INFO - API response: status 200, resp {'req_id': '349', 'status': 'OK'}
+2024-02-18 19:09:06,257 - root - INFO - API response: status 200, resp {'req_id': '350', 'status': 'OK'}
+2024-02-18 19:09:06,261 - root - INFO - API response: status 200, resp {'req_id': '348', 'status': 'OK'}
+2024-02-18 19:09:06,262 - root - INFO - API response: status 200, resp {'req_id': '347', 'status': 'OK'}
+2024-02-18 19:09:06,271 - root - INFO - API response: status 200, resp {'req_id': '351', 'status': 'OK'}
+2024-02-18 19:09:06,298 - root - INFO - API response: status 200, resp {'req_id': '352', 'status': 'OK'}
+2024-02-18 19:09:06,306 - root - INFO - API response: status 200, resp {'req_id': '353', 'status': 'OK'}
+2024-02-18 19:09:06,312 - root - INFO - API response: status 200, resp {'req_id': '357', 'status': 'OK'}
+2024-02-18 19:09:06,348 - root - INFO - API response: status 200, resp {'req_id': '354', 'status': 'OK'}
+2024-02-18 19:09:06,349 - root - INFO - API response: status 200, resp {'req_id': '355', 'status': 'OK'}
+2024-02-18 19:09:06,373 - root - INFO - API response: status 200, resp {'req_id': '356', 'status': 'OK'}
+2024-02-18 19:09:06,390 - root - INFO - API response: status 200, resp {'req_id': '359', 'status': 'OK'}
+2024-02-18 19:09:06,390 - root - INFO - API response: status 200, resp {'req_id': '358', 'status': 'OK'}
+2024-02-18 19:09:06,392 - root - INFO - API response: status 200, resp {'req_id': '361', 'status': 'OK'}
+2024-02-18 19:09:06,403 - root - INFO - API response: status 200, resp {'req_id': '360', 'status': 'OK'}
+2024-02-18 19:09:06,410 - root - INFO - API response: status 200, resp {'req_id': '362', 'status': 'OK'}
+2024-02-18 19:09:06,445 - root - INFO - API response: status 200, resp {'req_id': '365', 'status': 'OK'}
+2024-02-18 19:09:06,468 - root - INFO - API response: status 200, resp {'req_id': '366', 'status': 'OK'}
+2024-02-18 19:09:06,480 - root - INFO - API response: status 200, resp {'req_id': '368', 'status': 'OK'}
+2024-02-18 19:09:06,483 - root - INFO - API response: status 200, resp {'req_id': '364', 'status': 'OK'}
+2024-02-18 19:09:06,491 - root - INFO - API response: status 200, resp {'req_id': '367', 'status': 'OK'}
+2024-02-18 19:09:06,505 - root - INFO - API response: status 200, resp {'req_id': '363', 'status': 'OK'}
+2024-02-18 19:09:06,542 - root - INFO - API response: status 200, resp {'req_id': '373', 'status': 'OK'}
+2024-02-18 19:09:06,553 - root - INFO - API response: status 200, resp {'req_id': '371', 'status': 'OK'}
+2024-02-18 19:09:06,553 - root - INFO - API response: status 200, resp {'req_id': '369', 'status': 'OK'}
+2024-02-18 19:09:06,563 - root - INFO - API response: status 200, resp {'req_id': '370', 'status': 'OK'}
+2024-02-18 19:09:06,569 - root - INFO - API response: status 200, resp {'req_id': '372', 'status': 'OK'}
+2024-02-18 19:09:06,574 - root - INFO - API response: status 200, resp {'req_id': '375', 'status': 'OK'}
+2024-02-18 19:09:06,607 - root - INFO - API response: status 200, resp {'req_id': '374', 'status': 'OK'}
+2024-02-18 19:09:06,625 - root - INFO - API response: status 200, resp {'req_id': '377', 'status': 'OK'}
+2024-02-18 19:09:06,626 - root - INFO - API response: status 200, resp {'req_id': '378', 'status': 'OK'}
+2024-02-18 19:09:06,641 - root - INFO - API response: status 200, resp {'req_id': '376', 'status': 'OK'}
+2024-02-18 19:09:06,657 - root - INFO - API response: status 200, resp {'req_id': '380', 'status': 'OK'}
+2024-02-18 19:09:06,663 - root - INFO - API response: status 200, resp {'req_id': '379', 'status': 'OK'}
+2024-02-18 19:09:06,674 - root - INFO - API response: status 200, resp {'req_id': '382', 'status': 'OK'}
+2024-02-18 19:09:06,686 - root - INFO - API response: status 200, resp {'req_id': '383', 'status': 'OK'}
+2024-02-18 19:09:06,702 - root - INFO - API response: status 200, resp {'req_id': '381', 'status': 'OK'}
+2024-02-18 19:09:06,703 - root - INFO - API response: status 200, resp {'req_id': '385', 'status': 'OK'}
+2024-02-18 19:09:06,730 - root - INFO - API response: status 200, resp {'req_id': '386', 'status': 'OK'}
+2024-02-18 19:09:06,730 - root - INFO - API response: status 200, resp {'req_id': '384', 'status': 'OK'}
+2024-02-18 19:09:06,751 - root - INFO - API response: status 200, resp {'req_id': '391', 'status': 'OK'}
+2024-02-18 19:09:06,767 - root - INFO - API response: status 200, resp {'req_id': '387', 'status': 'OK'}
+2024-02-18 19:09:06,776 - root - INFO - API response: status 200, resp {'req_id': '390', 'status': 'OK'}
+2024-02-18 19:09:06,787 - root - INFO - API response: status 200, resp {'req_id': '388', 'status': 'OK'}
+2024-02-18 19:09:06,787 - root - INFO - API response: status 200, resp {'req_id': '389', 'status': 'OK'}
+2024-02-18 19:09:06,805 - root - INFO - API response: status 200, resp {'req_id': '393', 'status': 'OK'}
+2024-02-18 19:09:06,841 - root - INFO - API response: status 200, resp {'req_id': '396', 'status': 'OK'}
+2024-02-18 19:09:06,856 - root - INFO - API response: status 200, resp {'req_id': '394', 'status': 'OK'}
+2024-02-18 19:09:06,861 - root - INFO - API response: status 200, resp {'req_id': '392', 'status': 'OK'}
+2024-02-18 19:09:06,873 - root - INFO - API response: status 200, resp {'req_id': '395', 'status': 'OK'}
+2024-02-18 19:09:06,891 - root - INFO - API response: status 200, resp {'req_id': '397', 'status': 'OK'}
+2024-02-18 19:09:06,906 - root - INFO - API response: status 200, resp {'req_id': '398', 'status': 'OK'}
+2024-02-18 19:09:06,908 - root - INFO - API response: status 200, resp {'req_id': '399', 'status': 'OK'}
+2024-02-18 19:09:06,919 - root - INFO - API response: status 200, resp {'req_id': '401', 'status': 'OK'}
+2024-02-18 19:09:06,920 - root - INFO - API response: status 200, resp {'req_id': '400', 'status': 'OK'}
+2024-02-18 19:09:06,932 - root - INFO - API response: status 200, resp {'req_id': '402', 'status': 'OK'}
+2024-02-18 19:09:06,957 - root - INFO - API response: status 200, resp {'req_id': '404', 'status': 'OK'}
+2024-02-18 19:09:06,958 - root - INFO - API response: status 200, resp {'req_id': '405', 'status': 'OK'}
+2024-02-18 19:09:06,982 - root - INFO - API response: status 200, resp {'req_id': '403', 'status': 'OK'}
+2024-02-18 19:09:06,984 - root - INFO - API response: status 200, resp {'req_id': '407', 'status': 'OK'}
+2024-02-18 19:09:06,991 - root - INFO - API response: status 200, resp {'req_id': '406', 'status': 'OK'}
+2024-02-18 19:09:06,998 - root - INFO - API response: status 200, resp {'req_id': '408', 'status': 'OK'}
+2024-02-18 19:09:07,029 - root - INFO - API response: status 200, resp {'req_id': '410', 'status': 'OK'}
+2024-02-18 19:09:07,036 - root - INFO - API response: status 200, resp {'req_id': '411', 'status': 'OK'}
+2024-02-18 19:09:07,043 - root - INFO - API response: status 200, resp {'req_id': '409', 'status': 'OK'}
+2024-02-18 19:09:07,052 - root - INFO - API response: status 200, resp {'req_id': '414', 'status': 'OK'}
+2024-02-18 19:09:07,066 - root - INFO - API response: status 200, resp {'req_id': '413', 'status': 'OK'}
+2024-02-18 19:09:07,068 - root - INFO - API response: status 200, resp {'req_id': '415', 'status': 'OK'}
+2024-02-18 19:09:07,072 - root - INFO - API response: status 200, resp {'req_id': '416', 'status': 'OK'}
+2024-02-18 19:09:07,074 - root - INFO - API response: status 200, resp {'req_id': '412', 'status': 'OK'}
+2024-02-18 19:09:07,136 - root - INFO - API response: status 200, resp {'req_id': '418', 'status': 'OK'}
+2024-02-18 19:09:07,138 - root - INFO - API response: status 200, resp {'req_id': '421', 'status': 'OK'}
+2024-02-18 19:09:07,140 - root - INFO - API response: status 200, resp {'req_id': '417', 'status': 'OK'}
+2024-02-18 19:09:07,145 - root - INFO - API response: status 200, resp {'req_id': '419', 'status': 'OK'}
+2024-02-18 19:09:07,165 - root - INFO - API response: status 200, resp {'req_id': '423', 'status': 'OK'}
+2024-02-18 19:09:07,173 - root - INFO - API response: status 200, resp {'req_id': '420', 'status': 'OK'}
+2024-02-18 19:09:07,180 - root - INFO - API response: status 200, resp {'req_id': '425', 'status': 'OK'}
+2024-02-18 19:09:07,192 - root - INFO - API response: status 200, resp {'req_id': '424', 'status': 'OK'}
+2024-02-18 19:09:07,196 - root - INFO - API response: status 200, resp {'req_id': '427', 'status': 'OK'}
+2024-02-18 19:09:07,208 - root - INFO - API response: status 200, resp {'req_id': '422', 'status': 'OK'}
+2024-02-18 19:09:07,214 - root - INFO - API response: status 200, resp {'req_id': '426', 'status': 'OK'}
+2024-02-18 19:09:07,223 - root - INFO - API response: status 200, resp {'req_id': '431', 'status': 'OK'}
+2024-02-18 19:09:07,249 - root - INFO - API response: status 200, resp {'req_id': '429', 'status': 'OK'}
+2024-02-18 19:09:07,250 - root - INFO - API response: status 200, resp {'req_id': '428', 'status': 'OK'}
+2024-02-18 19:09:07,290 - root - INFO - API response: status 200, resp {'req_id': '430', 'status': 'OK'}
+2024-02-18 19:09:07,308 - root - INFO - API response: status 200, resp {'req_id': '434', 'status': 'OK'}
+2024-02-18 19:09:07,308 - root - INFO - API response: status 200, resp {'req_id': '435', 'status': 'OK'}
+2024-02-18 19:09:07,316 - root - INFO - API response: status 200, resp {'req_id': '433', 'status': 'OK'}
+2024-02-18 19:09:07,316 - root - INFO - API response: status 200, resp {'req_id': '436', 'status': 'OK'}
+2024-02-18 19:09:07,325 - root - INFO - API response: status 200, resp {'req_id': '432', 'status': 'OK'}
+2024-02-18 19:09:07,370 - root - INFO - API response: status 200, resp {'req_id': '438', 'status': 'OK'}
+2024-02-18 19:09:07,370 - root - INFO - API response: status 200, resp {'req_id': '437', 'status': 'OK'}
+2024-02-18 19:09:07,399 - root - INFO - API response: status 200, resp {'req_id': '439', 'status': 'OK'}
+2024-02-18 19:09:07,402 - root - INFO - API response: status 200, resp {'req_id': '442', 'status': 'OK'}
+2024-02-18 19:09:07,402 - root - INFO - API response: status 200, resp {'req_id': '441', 'status': 'OK'}
+2024-02-18 19:09:07,424 - root - INFO - API response: status 200, resp {'req_id': '440', 'status': 'OK'}
+2024-02-18 19:09:07,457 - root - INFO - API response: status 200, resp {'req_id': '443', 'status': 'OK'}
+2024-02-18 19:09:07,458 - root - INFO - API response: status 200, resp {'req_id': '444', 'status': 'OK'}
+2024-02-18 19:09:07,473 - root - INFO - API response: status 200, resp {'req_id': '447', 'status': 'OK'}
+2024-02-18 19:09:07,478 - root - INFO - API response: status 200, resp {'req_id': '445', 'status': 'OK'}
+2024-02-18 19:09:07,483 - root - INFO - API response: status 200, resp {'req_id': '446', 'status': 'OK'}
+2024-02-18 19:09:07,499 - root - INFO - API response: status 200, resp {'req_id': '448', 'status': 'OK'}
+2024-02-18 19:09:07,511 - root - INFO - API response: status 200, resp {'req_id': '452', 'status': 'OK'}
+2024-02-18 19:09:07,517 - root - INFO - API response: status 200, resp {'req_id': '451', 'status': 'OK'}
+2024-02-18 19:09:07,544 - root - INFO - API response: status 200, resp {'req_id': '450', 'status': 'OK'}
+2024-02-18 19:09:07,558 - root - INFO - API response: status 200, resp {'req_id': '449', 'status': 'OK'}
+2024-02-18 19:09:07,578 - root - INFO - API response: status 200, resp {'req_id': '453', 'status': 'OK'}
+2024-02-18 19:09:07,581 - root - INFO - API response: status 200, resp {'req_id': '454', 'status': 'OK'}
+2024-02-18 19:09:07,620 - root - INFO - API response: status 200, resp {'req_id': '457', 'status': 'OK'}
+2024-02-18 19:09:07,623 - root - INFO - API response: status 200, resp {'req_id': '455', 'status': 'OK'}
+2024-02-18 19:09:07,631 - root - INFO - API response: status 200, resp {'req_id': '456', 'status': 'OK'}
+2024-02-18 19:09:07,647 - root - INFO - API response: status 200, resp {'req_id': '461', 'status': 'OK'}
+2024-02-18 19:09:07,657 - root - INFO - API response: status 200, resp {'req_id': '460', 'status': 'OK'}
+2024-02-18 19:09:07,661 - root - INFO - API response: status 200, resp {'req_id': '462', 'status': 'OK'}
+2024-02-18 19:09:07,675 - root - INFO - API response: status 200, resp {'req_id': '459', 'status': 'OK'}
+2024-02-18 19:09:07,684 - root - INFO - API response: status 200, resp {'req_id': '458', 'status': 'OK'}
+2024-02-18 19:09:07,703 - root - INFO - API response: status 200, resp {'req_id': '465', 'status': 'OK'}
+2024-02-18 19:09:07,708 - root - INFO - API response: status 200, resp {'req_id': '467', 'status': 'OK'}
+2024-02-18 19:09:07,736 - root - INFO - API response: status 200, resp {'req_id': '464', 'status': 'OK'}
+2024-02-18 19:09:07,753 - root - INFO - API response: status 200, resp {'req_id': '466', 'status': 'OK'}
+2024-02-18 19:09:07,755 - root - INFO - API response: status 200, resp {'req_id': '463', 'status': 'OK'}
+2024-02-18 19:09:07,794 - root - INFO - API response: status 200, resp {'req_id': '468', 'status': 'OK'}
+2024-02-18 19:09:07,798 - root - INFO - API response: status 200, resp {'req_id': '470', 'status': 'OK'}
+2024-02-18 19:09:07,799 - root - INFO - API response: status 200, resp {'req_id': '469', 'status': 'OK'}
+2024-02-18 19:09:07,800 - root - INFO - API response: status 200, resp {'req_id': '471', 'status': 'OK'}
+2024-02-18 19:09:07,806 - root - INFO - API response: status 200, resp {'req_id': '472', 'status': 'OK'}
+2024-02-18 19:09:07,846 - root - INFO - API response: status 200, resp {'req_id': '474', 'status': 'OK'}
+2024-02-18 19:09:07,849 - root - INFO - API response: status 200, resp {'req_id': '477', 'status': 'OK'}
+2024-02-18 19:09:07,853 - root - INFO - API response: status 200, resp {'req_id': '473', 'status': 'OK'}
+2024-02-18 19:09:07,864 - root - INFO - API response: status 200, resp {'req_id': '475', 'status': 'OK'}
+2024-02-18 19:09:07,875 - root - INFO - API response: status 200, resp {'req_id': '476', 'status': 'OK'}
+2024-02-18 19:09:07,879 - root - INFO - API response: status 200, resp {'req_id': '481', 'status': 'OK'}
+2024-02-18 19:09:07,904 - root - INFO - API response: status 200, resp {'req_id': '478', 'status': 'OK'}
+2024-02-18 19:09:07,918 - root - INFO - API response: status 200, resp {'req_id': '480', 'status': 'OK'}
+2024-02-18 19:09:07,925 - root - INFO - API response: status 200, resp {'req_id': '479', 'status': 'OK'}
+2024-02-18 19:09:07,949 - root - INFO - API response: status 200, resp {'req_id': '482', 'status': 'OK'}
+2024-02-18 19:09:07,952 - root - INFO - API response: status 200, resp {'req_id': '484', 'status': 'OK'}
+2024-02-18 19:09:07,964 - root - INFO - API response: status 200, resp {'req_id': '483', 'status': 'OK'}
+2024-02-18 19:09:07,982 - root - INFO - API response: status 200, resp {'req_id': '485', 'status': 'OK'}
+2024-02-18 19:09:07,995 - root - INFO - API response: status 200, resp {'req_id': '488', 'status': 'OK'}
+2024-02-18 19:09:07,995 - root - INFO - API response: status 200, resp {'req_id': '490', 'status': 'OK'}
+2024-02-18 19:09:07,999 - root - INFO - API response: status 200, resp {'req_id': '489', 'status': 'OK'}
+2024-02-18 19:09:08,016 - root - INFO - API response: status 200, resp {'req_id': '486', 'status': 'OK'}
+2024-02-18 19:09:08,022 - root - INFO - API response: status 200, resp {'req_id': '487', 'status': 'OK'}
+2024-02-18 19:09:08,057 - root - INFO - API response: status 200, resp {'req_id': '492', 'status': 'OK'}
+2024-02-18 19:09:08,075 - root - INFO - API response: status 200, resp {'req_id': '495', 'status': 'OK'}
+2024-02-18 19:09:08,082 - root - INFO - API response: status 200, resp {'req_id': '491', 'status': 'OK'}
+2024-02-18 19:09:08,094 - root - INFO - API response: status 200, resp {'req_id': '496', 'status': 'OK'}
+2024-02-18 19:09:08,100 - root - INFO - API response: status 200, resp {'req_id': '493', 'status': 'OK'}
+2024-02-18 19:09:08,112 - root - INFO - API response: status 200, resp {'req_id': '494', 'status': 'OK'}
+2024-02-18 19:09:08,123 - root - INFO - API response: status 200, resp {'req_id': '497', 'status': 'OK'}
+2024-02-18 19:09:08,132 - root - INFO - API response: status 200, resp {'req_id': '498', 'status': 'OK'}
+2024-02-18 19:09:08,178 - root - INFO - API response: status 200, resp {'req_id': '501', 'status': 'OK'}
+2024-02-18 19:09:08,178 - root - INFO - API response: status 200, resp {'req_id': '500', 'status': 'OK'}
+2024-02-18 19:09:08,186 - root - INFO - API response: status 200, resp {'req_id': '502', 'status': 'OK'}
+2024-02-18 19:09:08,191 - root - INFO - API response: status 200, resp {'req_id': '503', 'status': 'OK'}
+2024-02-18 19:09:08,195 - root - INFO - API response: status 200, resp {'req_id': '499', 'status': 'OK'}
+2024-02-18 19:09:08,216 - root - INFO - API response: status 200, resp {'req_id': '504', 'status': 'OK'}
+2024-02-18 19:09:08,223 - root - INFO - API response: status 200, resp {'req_id': '505', 'status': 'OK'}
+2024-02-18 19:09:08,241 - root - INFO - API response: status 200, resp {'req_id': '507', 'status': 'OK'}
+2024-02-18 19:09:08,247 - root - INFO - API response: status 200, resp {'req_id': '508', 'status': 'OK'}
+2024-02-18 19:09:08,255 - root - INFO - API response: status 200, resp {'req_id': '506', 'status': 'OK'}
+2024-02-18 19:09:08,270 - root - INFO - API response: status 200, resp {'req_id': '510', 'status': 'OK'}
+2024-02-18 19:09:08,276 - root - INFO - API response: status 200, resp {'req_id': '511', 'status': 'OK'}
+2024-02-18 19:09:08,285 - root - INFO - API response: status 200, resp {'req_id': '513', 'status': 'OK'}
+2024-02-18 19:09:08,320 - root - INFO - API response: status 200, resp {'req_id': '512', 'status': 'OK'}
+2024-02-18 19:09:08,332 - root - INFO - API response: status 200, resp {'req_id': '516', 'status': 'OK'}
+2024-02-18 19:09:08,333 - root - INFO - API response: status 200, resp {'req_id': '509', 'status': 'OK'}
+2024-02-18 19:09:08,343 - root - INFO - API response: status 200, resp {'req_id': '515', 'status': 'OK'}
+2024-02-18 19:09:08,343 - root - INFO - API response: status 200, resp {'req_id': '514', 'status': 'OK'}
+2024-02-18 19:09:08,372 - root - INFO - API response: status 200, resp {'req_id': '517', 'status': 'OK'}
+2024-02-18 19:09:08,403 - root - INFO - API response: status 200, resp {'req_id': '521', 'status': 'OK'}
+2024-02-18 19:09:08,404 - root - INFO - API response: status 200, resp {'req_id': '519', 'status': 'OK'}
+2024-02-18 19:09:08,408 - root - INFO - API response: status 200, resp {'req_id': '520', 'status': 'OK'}
+2024-02-18 19:09:08,428 - root - INFO - API response: status 200, resp {'req_id': '522', 'status': 'OK'}
+2024-02-18 19:09:08,448 - root - INFO - API response: status 200, resp {'req_id': '518', 'status': 'OK'}
+2024-02-18 19:09:08,450 - root - INFO - API response: status 200, resp {'req_id': '526', 'status': 'OK'}
+2024-02-18 19:09:08,470 - root - INFO - API response: status 200, resp {'req_id': '525', 'status': 'OK'}
+2024-02-18 19:09:08,480 - root - INFO - API response: status 200, resp {'req_id': '524', 'status': 'OK'}
+2024-02-18 19:09:08,491 - root - INFO - API response: status 200, resp {'req_id': '523', 'status': 'OK'}
+2024-02-18 19:09:08,498 - root - INFO - API response: status 200, resp {'req_id': '528', 'status': 'OK'}
+2024-02-18 19:09:08,519 - root - INFO - API response: status 200, resp {'req_id': '530', 'status': 'OK'}
+2024-02-18 19:09:08,548 - root - INFO - API response: status 200, resp {'req_id': '531', 'status': 'OK'}
+2024-02-18 19:09:08,550 - root - INFO - API response: status 200, resp {'req_id': '527', 'status': 'OK'}
+2024-02-18 19:09:08,572 - root - INFO - API response: status 200, resp {'req_id': '529', 'status': 'OK'}
+2024-02-18 19:09:08,574 - root - INFO - API response: status 200, resp {'req_id': '534', 'status': 'OK'}
+2024-02-18 19:09:08,582 - root - INFO - API response: status 200, resp {'req_id': '533', 'status': 'OK'}
+2024-02-18 19:09:08,589 - root - INFO - API response: status 200, resp {'req_id': '532', 'status': 'OK'}
+2024-02-18 19:09:08,606 - root - INFO - API response: status 200, resp {'req_id': '538', 'status': 'OK'}
+2024-02-18 19:09:08,608 - root - INFO - API response: status 200, resp {'req_id': '535', 'status': 'OK'}
+2024-02-18 19:09:08,620 - root - INFO - API response: status 200, resp {'req_id': '536', 'status': 'OK'}
+2024-02-18 19:09:08,656 - root - INFO - API response: status 200, resp {'req_id': '542', 'status': 'OK'}
+2024-02-18 19:09:08,684 - root - INFO - API response: status 200, resp {'req_id': '537', 'status': 'OK'}
+2024-02-18 19:09:08,699 - root - INFO - API response: status 200, resp {'req_id': '539', 'status': 'OK'}
+2024-02-18 19:09:08,699 - root - INFO - API response: status 200, resp {'req_id': '541', 'status': 'OK'}
+2024-02-18 19:09:08,701 - root - INFO - API response: status 200, resp {'req_id': '543', 'status': 'OK'}
+2024-02-18 19:09:08,724 - root - INFO - API response: status 200, resp {'req_id': '544', 'status': 'OK'}
+2024-02-18 19:09:08,724 - root - INFO - API response: status 200, resp {'req_id': '540', 'status': 'OK'}
+2024-02-18 19:09:08,734 - root - INFO - API response: status 200, resp {'req_id': '546', 'status': 'OK'}
+2024-02-18 19:09:08,757 - root - INFO - API response: status 200, resp {'req_id': '545', 'status': 'OK'}
+2024-02-18 19:09:08,765 - root - INFO - API response: status 200, resp {'req_id': '547', 'status': 'OK'}
+2024-02-18 19:09:08,777 - root - INFO - API response: status 200, resp {'req_id': '548', 'status': 'OK'}
+2024-02-18 19:09:08,778 - root - INFO - API response: status 200, resp {'req_id': '549', 'status': 'OK'}
+2024-02-18 19:09:08,790 - root - INFO - API response: status 200, resp {'req_id': '550', 'status': 'OK'}
+2024-02-18 19:09:08,791 - root - INFO - API response: status 200, resp {'req_id': '551', 'status': 'OK'}
+2024-02-18 19:09:08,808 - root - INFO - API response: status 200, resp {'req_id': '553', 'status': 'OK'}
+2024-02-18 19:09:08,833 - root - WARNING - ignoring request 557 in limiter due to TTL
+2024-02-18 19:09:08,837 - root - INFO - API response: status 200, resp {'req_id': '554', 'status': 'OK'}
+2024-02-18 19:09:08,850 - root - INFO - API response: status 200, resp {'req_id': '555', 'status': 'OK'}
+2024-02-18 19:09:08,850 - root - INFO - API response: status 200, resp {'req_id': '552', 'status': 'OK'}
+2024-02-18 19:09:08,867 - root - INFO - API response: status 200, resp {'req_id': '559', 'status': 'OK'}
+2024-02-18 19:09:08,875 - root - INFO - API response: status 200, resp {'req_id': '561', 'status': 'OK'}
+2024-02-18 19:09:08,884 - root - INFO - API response: status 200, resp {'req_id': '558', 'status': 'OK'}
+2024-02-18 19:09:08,884 - root - INFO - API response: status 200, resp {'req_id': '556', 'status': 'OK'}
+2024-02-18 19:09:08,918 - root - INFO - API response: status 200, resp {'req_id': '560', 'status': 'OK'}
+2024-02-18 19:09:08,926 - root - INFO - API response: status 200, resp {'req_id': '563', 'status': 'OK'}
+2024-02-18 19:09:08,943 - root - INFO - API response: status 200, resp {'req_id': '565', 'status': 'OK'}
+2024-02-18 19:09:08,952 - root - WARNING - ignoring request 567 in limiter due to TTL
+2024-02-18 19:09:08,953 - root - INFO - API response: status 200, resp {'req_id': '564', 'status': 'OK'}
+2024-02-18 19:09:08,974 - root - INFO - API response: status 200, resp {'req_id': '562', 'status': 'OK'}
+2024-02-18 19:09:08,977 - root - INFO - API response: status 200, resp {'req_id': '568', 'status': 'OK'}
+2024-02-18 19:09:08,997 - root - INFO - API response: status 200, resp {'req_id': '566', 'status': 'OK'}
+2024-02-18 19:09:09,003 - root - INFO - API response: status 200, resp {'req_id': '573', 'status': 'OK'}
+2024-02-18 19:09:09,009 - root - INFO - API response: status 200, resp {'req_id': '570', 'status': 'OK'}
+2024-02-18 19:09:09,009 - root - INFO - API response: status 200, resp {'req_id': '569', 'status': 'OK'}
+2024-02-18 19:09:09,016 - root - INFO - API response: status 200, resp {'req_id': '571', 'status': 'OK'}
+2024-02-18 19:09:09,033 - root - WARNING - ignoring request 574 in limiter due to TTL
+2024-02-18 19:09:09,047 - root - WARNING - ignoring request 578 in limiter due to TTL
+2024-02-18 19:09:09,051 - root - INFO - API response: status 200, resp {'req_id': '576', 'status': 'OK'}
+2024-02-18 19:09:09,064 - root - INFO - API response: status 200, resp {'req_id': '579', 'status': 'OK'}
+2024-02-18 19:09:09,069 - root - INFO - API response: status 200, resp {'req_id': '572', 'status': 'OK'}
+2024-02-18 19:09:09,070 - root - WARNING - ignoring request 581 in limiter due to TTL
+2024-02-18 19:09:09,087 - root - WARNING - ignoring request 583 in limiter due to TTL
+2024-02-18 19:09:09,091 - root - INFO - API response: status 200, resp {'req_id': '575', 'status': 'OK'}
+2024-02-18 19:09:09,095 - root - WARNING - ignoring request 584 in limiter due to TTL
+2024-02-18 19:09:09,130 - root - INFO - API response: status 200, resp {'req_id': '577', 'status': 'OK'}
+2024-02-18 19:09:09,130 - root - WARNING - ignoring request 587 from queue due to TTL
+2024-02-18 19:09:09,130 - root - WARNING - ignoring request 588 from queue due to TTL
+2024-02-18 19:09:09,130 - root - WARNING - ignoring request 589 from queue due to TTL
+2024-02-18 19:09:09,134 - root - INFO - API response: status 200, resp {'req_id': '582', 'status': 'OK'}
+2024-02-18 19:09:09,134 - root - INFO - API response: status 200, resp {'req_id': '580', 'status': 'OK'}
+2024-02-18 19:09:09,158 - root - INFO - API response: status 200, resp {'req_id': '586', 'status': 'OK'}
+2024-02-18 19:09:09,162 - root - INFO - API response: status 200, resp {'req_id': '591', 'status': 'OK'}
+2024-02-18 19:09:09,168 - root - INFO - API response: status 200, resp {'req_id': '590', 'status': 'OK'}
+2024-02-18 19:09:09,175 - root - INFO - API response: status 200, resp {'req_id': '592', 'status': 'OK'}
+2024-02-18 19:09:09,175 - root - WARNING - ignoring request 594 in limiter due to TTL
+2024-02-18 19:09:09,176 - root - INFO - API response: status 200, resp {'req_id': '585', 'status': 'OK'}
+2024-02-18 19:09:09,192 - root - INFO - API response: status 200, resp {'req_id': '596', 'status': 'OK'}
+2024-02-18 19:09:09,201 - root - WARNING - ignoring request 599 in limiter due to TTL
+2024-02-18 19:09:09,203 - root - INFO - API response: status 200, resp {'req_id': '593', 'status': 'OK'}
+2024-02-18 19:09:09,205 - root - WARNING - ignoring request 600 in limiter due to TTL
+2024-02-18 19:09:09,221 - root - WARNING - ignoring request 602 in limiter due to TTL
+2024-02-18 19:09:09,224 - root - INFO - API response: status 200, resp {'req_id': '598', 'status': 'OK'}
+2024-02-18 19:09:09,233 - root - WARNING - ignoring request 603 in limiter due to TTL
+2024-02-18 19:09:09,239 - root - INFO - API response: status 200, resp {'req_id': '597', 'status': 'OK'}
+2024-02-18 19:09:09,246 - root - INFO - API response: status 200, resp {'req_id': '595', 'status': 'OK'}
+2024-02-18 19:09:09,286 - root - INFO - API response: status 200, resp {'req_id': '605', 'status': 'OK'}
+2024-02-18 19:09:09,306 - root - INFO - API response: status 200, resp {'req_id': '604', 'status': 'OK'}
+2024-02-18 19:09:09,307 - root - WARNING - ignoring request 609 from queue due to TTL
+2024-02-18 19:09:09,309 - root - INFO - API response: status 200, resp {'req_id': '601', 'status': 'OK'}
+2024-02-18 19:09:09,321 - root - INFO - API response: status 200, resp {'req_id': '606', 'status': 'OK'}
+2024-02-18 19:09:09,324 - root - INFO - API response: status 200, resp {'req_id': '607', 'status': 'OK'}
+2024-02-18 19:09:09,332 - root - INFO - API response: status 200, resp {'req_id': '608', 'status': 'OK'}
+2024-02-18 19:09:09,358 - root - INFO - API response: status 200, resp {'req_id': '612', 'status': 'OK'}
+2024-02-18 19:09:09,358 - root - WARNING - ignoring request 615 from queue due to TTL
+2024-02-18 19:09:09,358 - root - WARNING - ignoring request 616 from queue due to TTL
+2024-02-18 19:09:09,358 - root - WARNING - ignoring request 617 from queue due to TTL
+2024-02-18 19:09:09,361 - root - WARNING - ignoring request 618 in limiter due to TTL
+2024-02-18 19:09:09,368 - root - INFO - API response: status 200, resp {'req_id': '610', 'status': 'OK'}
+2024-02-18 19:09:09,368 - root - WARNING - ignoring request 619 in limiter due to TTL
+2024-02-18 19:09:09,376 - root - INFO - API response: status 200, resp {'req_id': '611', 'status': 'OK'}
+2024-02-18 19:09:09,406 - root - INFO - API response: status 200, resp {'req_id': '620', 'status': 'OK'}
+2024-02-18 19:09:09,408 - root - INFO - API response: status 200, resp {'req_id': '622', 'status': 'OK'}
+2024-02-18 19:09:09,408 - root - INFO - API response: status 200, resp {'req_id': '614', 'status': 'OK'}
+2024-02-18 19:09:09,412 - root - WARNING - ignoring request 623 in limiter due to TTL
+2024-02-18 19:09:09,417 - root - WARNING - ignoring request 624 in limiter due to TTL
+2024-02-18 19:09:09,419 - root - INFO - API response: status 200, resp {'req_id': '613', 'status': 'OK'}
+2024-02-18 19:09:09,436 - root - INFO - API response: status 200, resp {'req_id': '621', 'status': 'OK'}
+2024-02-18 19:09:09,455 - root - INFO - API response: status 200, resp {'req_id': '626', 'status': 'OK'}
+2024-02-18 19:09:09,465 - root - WARNING - ignoring request 630 in limiter due to TTL
+2024-02-18 19:09:09,474 - root - INFO - API response: status 200, resp {'req_id': '629', 'status': 'OK'}
+2024-02-18 19:09:09,476 - root - INFO - API response: status 200, resp {'req_id': '625', 'status': 'OK'}
+2024-02-18 19:09:09,486 - root - INFO - API response: status 200, resp {'req_id': '627', 'status': 'OK'}
+2024-02-18 19:09:09,499 - root - INFO - API response: status 200, resp {'req_id': '628', 'status': 'OK'}
+2024-02-18 19:09:09,510 - root - INFO - API response: status 200, resp {'req_id': '634', 'status': 'OK'}
+2024-02-18 19:09:09,540 - root - INFO - API response: status 200, resp {'req_id': '631', 'status': 'OK'}
+2024-02-18 19:09:09,541 - root - INFO - API response: status 200, resp {'req_id': '632', 'status': 'OK'}
+2024-02-18 19:09:09,545 - root - INFO - API response: status 200, resp {'req_id': '636', 'status': 'OK'}
+2024-02-18 19:09:09,558 - root - INFO - API response: status 200, resp {'req_id': '635', 'status': 'OK'}
+2024-02-18 19:09:09,578 - root - INFO - API response: status 200, resp {'req_id': '633', 'status': 'OK'}
+2024-02-18 19:09:09,582 - root - INFO - API response: status 200, resp {'req_id': '637', 'status': 'OK'}
+2024-02-18 19:09:09,583 - root - WARNING - ignoring request 639 in limiter due to TTL
+2024-02-18 19:09:09,592 - root - INFO - API response: status 200, resp {'req_id': '640', 'status': 'OK'}
+2024-02-18 19:09:09,627 - root - INFO - API response: status 200, resp {'req_id': '641', 'status': 'OK'}
+2024-02-18 19:09:09,631 - root - INFO - API response: status 200, resp {'req_id': '638', 'status': 'OK'}
+2024-02-18 19:09:09,654 - root - INFO - API response: status 200, resp {'req_id': '646', 'status': 'OK'}
+2024-02-18 19:09:09,654 - root - INFO - API response: status 200, resp {'req_id': '643', 'status': 'OK'}
+2024-02-18 19:09:09,663 - root - WARNING - ignoring request 647 in limiter due to TTL
+2024-02-18 19:09:09,670 - root - INFO - API response: status 200, resp {'req_id': '642', 'status': 'OK'}
+2024-02-18 19:09:09,682 - root - INFO - API response: status 200, resp {'req_id': '645', 'status': 'OK'}
+2024-02-18 19:09:09,688 - root - INFO - API response: status 200, resp {'req_id': '644', 'status': 'OK'}
+2024-02-18 19:09:09,730 - root - INFO - API response: status 200, resp {'req_id': '651', 'status': 'OK'}
+2024-02-18 19:09:09,739 - root - INFO - API response: status 200, resp {'req_id': '648', 'status': 'OK'}
+2024-02-18 19:09:09,757 - root - INFO - API response: status 200, resp {'req_id': '650', 'status': 'OK'}
+2024-02-18 19:09:09,757 - root - WARNING - ignoring request 655 from queue due to TTL
+2024-02-18 19:09:09,778 - root - INFO - API response: status 200, resp {'req_id': '652', 'status': 'OK'}
+2024-02-18 19:09:09,783 - root - INFO - API response: status 200, resp {'req_id': '649', 'status': 'OK'}
+2024-02-18 19:09:09,802 - root - INFO - API response: status 200, resp {'req_id': '656', 'status': 'OK'}
+2024-02-18 19:09:09,812 - root - INFO - API response: status 200, resp {'req_id': '654', 'status': 'OK'}
+2024-02-18 19:09:09,812 - root - INFO - API response: status 200, resp {'req_id': '658', 'status': 'OK'}
+2024-02-18 19:09:09,816 - root - INFO - API response: status 200, resp {'req_id': '653', 'status': 'OK'}
+2024-02-18 19:09:09,843 - root - INFO - API response: status 200, resp {'req_id': '662', 'status': 'OK'}
+2024-02-18 19:09:09,857 - root - INFO - API response: status 200, resp {'req_id': '661', 'status': 'OK'}
+2024-02-18 19:09:09,863 - root - INFO - API response: status 200, resp {'req_id': '657', 'status': 'OK'}
+2024-02-18 19:09:09,874 - root - INFO - API response: status 200, resp {'req_id': '665', 'status': 'OK'}
+2024-02-18 19:09:09,883 - root - INFO - API response: status 200, resp {'req_id': '659', 'status': 'OK'}
+2024-02-18 19:09:09,888 - root - INFO - API response: status 200, resp {'req_id': '660', 'status': 'OK'}
+2024-02-18 19:09:09,919 - root - INFO - API response: status 200, resp {'req_id': '664', 'status': 'OK'}
+2024-02-18 19:09:09,933 - root - INFO - API response: status 200, resp {'req_id': '663', 'status': 'OK'}
+2024-02-18 19:09:09,934 - root - INFO - API response: status 200, resp {'req_id': '667', 'status': 'OK'}
+2024-02-18 19:09:09,975 - root - INFO - API response: status 200, resp {'req_id': '668', 'status': 'OK'}
+2024-02-18 19:09:09,975 - root - WARNING - ignoring request 672 from queue due to TTL
+2024-02-18 19:09:09,975 - root - WARNING - ignoring request 673 from queue due to TTL
+2024-02-18 19:09:09,978 - root - INFO - API response: status 200, resp {'req_id': '670', 'status': 'OK'}
+2024-02-18 19:09:09,995 - root - INFO - API response: status 200, resp {'req_id': '666', 'status': 'OK'}
+2024-02-18 19:09:09,999 - root - INFO - API response: status 200, resp {'req_id': '671', 'status': 'OK'}
+2024-02-18 19:09:10,026 - root - INFO - API response: status 200, resp {'req_id': '669', 'status': 'OK'}
+2024-02-18 19:09:10,049 - root - INFO - API response: status 200, resp {'req_id': '677', 'status': 'OK'}
+2024-02-18 19:09:10,052 - root - INFO - API response: status 200, resp {'req_id': '678', 'status': 'OK'}
+2024-02-18 19:09:10,058 - root - WARNING - ignoring request 680 in limiter due to TTL
+2024-02-18 19:09:10,058 - root - WARNING - ignoring request 681 from queue due to TTL
+2024-02-18 19:09:10,063 - root - WARNING - ignoring request 682 in limiter due to TTL
+2024-02-18 19:09:10,064 - root - INFO - API response: status 200, resp {'req_id': '674', 'status': 'OK'}
+2024-02-18 19:09:10,066 - root - INFO - API response: status 200, resp {'req_id': '675', 'status': 'OK'}
+2024-02-18 19:09:10,070 - root - WARNING - ignoring request 683 in limiter due to TTL
+2024-02-18 19:09:10,071 - root - INFO - API response: status 200, resp {'req_id': '676', 'status': 'OK'}
+2024-02-18 19:09:10,108 - root - INFO - API response: status 200, resp {'req_id': '679', 'status': 'OK'}
+2024-02-18 19:09:10,109 - root - INFO - API response: status 200, resp {'req_id': '685', 'status': 'OK'}
+2024-02-18 19:09:10,113 - root - INFO - API response: status 200, resp {'req_id': '687', 'status': 'OK'}
+2024-02-18 19:09:10,128 - root - INFO - API response: status 200, resp {'req_id': '684', 'status': 'OK'}
+2024-02-18 19:09:10,153 - root - INFO - API response: status 200, resp {'req_id': '686', 'status': 'OK'}
+2024-02-18 19:09:10,154 - root - INFO - API response: status 200, resp {'req_id': '689', 'status': 'OK'}
+2024-02-18 19:09:10,167 - root - INFO - API response: status 200, resp {'req_id': '688', 'status': 'OK'}
+2024-02-18 19:09:10,168 - root - INFO - API response: status 200, resp {'req_id': '691', 'status': 'OK'}
+2024-02-18 19:09:10,184 - root - INFO - API response: status 200, resp {'req_id': '692', 'status': 'OK'}
+2024-02-18 19:09:10,209 - root - INFO - API response: status 200, resp {'req_id': '690', 'status': 'OK'}
+2024-02-18 19:09:10,212 - root - INFO - API response: status 200, resp {'req_id': '695', 'status': 'OK'}
+2024-02-18 19:09:10,235 - root - INFO - API response: status 200, resp {'req_id': '697', 'status': 'OK'}
+2024-02-18 19:09:10,241 - root - INFO - API response: status 200, resp {'req_id': '694', 'status': 'OK'}
+2024-02-18 19:09:10,242 - root - WARNING - ignoring request 699 in limiter due to TTL
+2024-02-18 19:09:10,245 - root - INFO - API response: status 200, resp {'req_id': '693', 'status': 'OK'}
+2024-02-18 19:09:10,266 - root - INFO - API response: status 200, resp {'req_id': '696', 'status': 'OK'}
+2024-02-18 19:09:10,267 - root - INFO - API response: status 200, resp {'req_id': '700', 'status': 'OK'}
+2024-02-18 19:09:10,295 - root - INFO - API response: status 200, resp {'req_id': '702', 'status': 'OK'}
+2024-02-18 19:09:10,301 - root - INFO - API response: status 200, resp {'req_id': '701', 'status': 'OK'}
+2024-02-18 19:09:10,307 - root - INFO - API response: status 200, resp {'req_id': '698', 'status': 'OK'}
+2024-02-18 19:09:10,307 - root - INFO - API response: status 200, resp {'req_id': '703', 'status': 'OK'}
+2024-02-18 19:09:10,309 - root - INFO - API response: status 200, resp {'req_id': '704', 'status': 'OK'}
+2024-02-18 19:09:10,341 - root - INFO - API response: status 200, resp {'req_id': '708', 'status': 'OK'}
+2024-02-18 19:09:10,353 - root - INFO - API response: status 200, resp {'req_id': '705', 'status': 'OK'}
+2024-02-18 19:09:10,361 - root - INFO - API response: status 200, resp {'req_id': '706', 'status': 'OK'}
+2024-02-18 19:09:10,386 - root - INFO - API response: status 200, resp {'req_id': '707', 'status': 'OK'}
+2024-02-18 19:09:10,393 - root - INFO - API response: status 200, resp {'req_id': '709', 'status': 'OK'}
+2024-02-18 19:09:10,412 - root - INFO - API response: status 200, resp {'req_id': '711', 'status': 'OK'}
+2024-02-18 19:09:10,413 - root - INFO - API response: status 200, resp {'req_id': '712', 'status': 'OK'}
+2024-02-18 19:09:10,441 - root - INFO - API response: status 200, resp {'req_id': '713', 'status': 'OK'}
+2024-02-18 19:09:10,450 - root - INFO - API response: status 200, resp {'req_id': '710', 'status': 'OK'}
+2024-02-18 19:09:10,463 - root - INFO - API response: status 200, resp {'req_id': '714', 'status': 'OK'}
+2024-02-18 19:09:10,468 - root - INFO - API response: status 200, resp {'req_id': '718', 'status': 'OK'}
+2024-02-18 19:09:10,478 - root - INFO - API response: status 200, resp {'req_id': '715', 'status': 'OK'}
+2024-02-18 19:09:10,503 - root - INFO - API response: status 200, resp {'req_id': '717', 'status': 'OK'}
+2024-02-18 19:09:10,508 - root - INFO - API response: status 200, resp {'req_id': '716', 'status': 'OK'}
+2024-02-18 19:09:10,532 - root - INFO - API response: status 200, resp {'req_id': '722', 'status': 'OK'}
+2024-02-18 19:09:10,552 - root - INFO - API response: status 200, resp {'req_id': '721', 'status': 'OK'}
+2024-02-18 19:09:10,555 - root - WARNING - ignoring request 724 in limiter due to TTL
+2024-02-18 19:09:10,556 - root - INFO - API response: status 200, resp {'req_id': '723', 'status': 'OK'}
+2024-02-18 19:09:10,575 - root - INFO - API response: status 200, resp {'req_id': '719', 'status': 'OK'}
+2024-02-18 19:09:10,585 - root - INFO - API response: status 200, resp {'req_id': '720', 'status': 'OK'}
+2024-02-18 19:09:10,601 - root - INFO - API response: status 200, resp {'req_id': '726', 'status': 'OK'}
+2024-02-18 19:09:10,608 - root - INFO - API response: status 200, resp {'req_id': '725', 'status': 'OK'}
+2024-02-18 19:09:10,641 - root - INFO - API response: status 200, resp {'req_id': '730', 'status': 'OK'}
+2024-02-18 19:09:10,642 - root - WARNING - ignoring request 732 from queue due to TTL
+2024-02-18 19:09:10,646 - root - INFO - API response: status 200, resp {'req_id': '729', 'status': 'OK'}
+2024-02-18 19:09:10,646 - root - INFO - API response: status 200, resp {'req_id': '728', 'status': 'OK'}
+2024-02-18 19:09:10,649 - root - WARNING - ignoring request 733 in limiter due to TTL
+2024-02-18 19:09:10,660 - root - INFO - API response: status 200, resp {'req_id': '735', 'status': 'OK'}
+2024-02-18 19:09:10,660 - root - INFO - API response: status 200, resp {'req_id': '731', 'status': 'OK'}
+2024-02-18 19:09:10,662 - root - INFO - API response: status 200, resp {'req_id': '727', 'status': 'OK'}
+2024-02-18 19:09:10,677 - root - WARNING - ignoring request 737 in limiter due to TTL
+2024-02-18 19:09:10,694 - root - WARNING - ignoring request 740 in limiter due to TTL
+2024-02-18 19:09:10,706 - root - INFO - API response: status 200, resp {'req_id': '734', 'status': 'OK'}
+2024-02-18 19:09:10,715 - root - INFO - API response: status 200, resp {'req_id': '738', 'status': 'OK'}
+2024-02-18 19:09:10,723 - root - INFO - API response: status 200, resp {'req_id': '736', 'status': 'OK'}
+2024-02-18 19:09:10,740 - root - INFO - API response: status 200, resp {'req_id': '739', 'status': 'OK'}
+2024-02-18 19:09:10,754 - root - INFO - API response: status 200, resp {'req_id': '741', 'status': 'OK'}
+2024-02-18 19:09:10,773 - root - INFO - API response: status 200, resp {'req_id': '743', 'status': 'OK'}
+2024-02-18 19:09:10,779 - root - INFO - API response: status 200, resp {'req_id': '744', 'status': 'OK'}
+2024-02-18 19:09:10,786 - root - INFO - API response: status 200, resp {'req_id': '742', 'status': 'OK'}
+2024-02-18 19:09:10,795 - root - INFO - API response: status 200, resp {'req_id': '745', 'status': 'OK'}
+2024-02-18 19:09:10,806 - root - INFO - API response: status 200, resp {'req_id': '746', 'status': 'OK'}
+2024-02-18 19:09:10,830 - root - INFO - API response: status 200, resp {'req_id': '750', 'status': 'OK'}
+2024-02-18 19:09:10,838 - root - INFO - API response: status 200, resp {'req_id': '749', 'status': 'OK'}
+2024-02-18 19:09:10,854 - root - INFO - API response: status 200, resp {'req_id': '747', 'status': 'OK'}
+2024-02-18 19:09:10,854 - root - INFO - API response: status 200, resp {'req_id': '748', 'status': 'OK'}
+2024-02-18 19:09:10,876 - root - INFO - API response: status 200, resp {'req_id': '751', 'status': 'OK'}
+2024-02-18 19:09:10,879 - root - INFO - API response: status 200, resp {'req_id': '754', 'status': 'OK'}
+2024-02-18 19:09:10,883 - root - INFO - API response: status 200, resp {'req_id': '756', 'status': 'OK'}
+2024-02-18 19:09:10,896 - root - WARNING - ignoring request 757 in limiter due to TTL
+2024-02-18 19:09:10,900 - root - INFO - API response: status 200, resp {'req_id': '753', 'status': 'OK'}
+2024-02-18 19:09:10,907 - root - INFO - API response: status 200, resp {'req_id': '752', 'status': 'OK'}
+2024-02-18 19:09:10,916 - root - WARNING - ignoring request 758 in limiter due to TTL
+2024-02-18 19:09:10,917 - root - INFO - API response: status 200, resp {'req_id': '755', 'status': 'OK'}
+2024-02-18 19:09:10,935 - root - INFO - API response: status 200, resp {'req_id': '760', 'status': 'OK'}
+2024-02-18 19:09:10,939 - root - INFO - API response: status 200, resp {'req_id': '763', 'status': 'OK'}
+2024-02-18 19:09:10,949 - root - INFO - API response: status 200, resp {'req_id': '759', 'status': 'OK'}
+2024-02-18 19:09:10,952 - root - INFO - API response: status 200, resp {'req_id': '761', 'status': 'OK'}
+2024-02-18 19:09:10,969 - root - INFO - API response: status 200, resp {'req_id': '767', 'status': 'OK'}
+2024-02-18 19:09:10,983 - root - INFO - API response: status 200, resp {'req_id': '762', 'status': 'OK'}
+2024-02-18 19:09:11,005 - root - WARNING - ignoring request 768 in limiter due to TTL
+2024-02-18 19:09:11,020 - root - INFO - API response: status 200, resp {'req_id': '765', 'status': 'OK'}
+2024-02-18 19:09:11,020 - root - INFO - API response: status 200, resp {'req_id': '764', 'status': 'OK'}
+2024-02-18 19:09:11,032 - root - INFO - API response: status 200, resp {'req_id': '766', 'status': 'OK'}
+2024-02-18 19:09:11,054 - root - INFO - API response: status 200, resp {'req_id': '769', 'status': 'OK'}
+2024-02-18 19:09:11,055 - root - INFO - API response: status 200, resp {'req_id': '772', 'status': 'OK'}
+2024-02-18 19:09:11,055 - root - INFO - API response: status 200, resp {'req_id': '771', 'status': 'OK'}
+2024-02-18 19:09:11,059 - root - INFO - API response: status 200, resp {'req_id': '770', 'status': 'OK'}
+2024-02-18 19:09:11,069 - root - INFO - API response: status 200, resp {'req_id': '777', 'status': 'OK'}
+2024-02-18 19:09:11,089 - root - INFO - API response: status 200, resp {'req_id': '775', 'status': 'OK'}
+2024-02-18 19:09:11,105 - root - WARNING - ignoring request 779 in limiter due to TTL
+2024-02-18 19:09:11,105 - root - WARNING - ignoring request 778 in limiter due to TTL
+2024-02-18 19:09:11,108 - root - INFO - API response: status 200, resp {'req_id': '774', 'status': 'OK'}
+2024-02-18 19:09:11,111 - root - WARNING - ignoring request 780 in limiter due to TTL
+2024-02-18 19:09:11,115 - root - INFO - API response: status 200, resp {'req_id': '773', 'status': 'OK'}
+2024-02-18 19:09:11,123 - root - INFO - API response: status 200, resp {'req_id': '781', 'status': 'OK'}
+2024-02-18 19:09:11,153 - root - INFO - API response: status 200, resp {'req_id': '782', 'status': 'OK'}
+2024-02-18 19:09:11,154 - root - INFO - API response: status 200, resp {'req_id': '783', 'status': 'OK'}
+2024-02-18 19:09:11,163 - root - INFO - API response: status 200, resp {'req_id': '784', 'status': 'OK'}
+2024-02-18 19:09:11,168 - root - INFO - API response: status 200, resp {'req_id': '776', 'status': 'OK'}
+2024-02-18 19:09:11,184 - root - INFO - API response: status 200, resp {'req_id': '789', 'status': 'OK'}
+2024-02-18 19:09:11,200 - root - INFO - API response: status 200, resp {'req_id': '787', 'status': 'OK'}
+2024-02-18 19:09:11,205 - root - INFO - API response: status 200, resp {'req_id': '786', 'status': 'OK'}
+2024-02-18 19:09:11,219 - root - INFO - API response: status 200, resp {'req_id': '788', 'status': 'OK'}
+2024-02-18 19:09:11,220 - root - INFO - API response: status 200, resp {'req_id': '785', 'status': 'OK'}
+2024-02-18 19:09:11,265 - root - INFO - API response: status 200, resp {'req_id': '790', 'status': 'OK'}
+2024-02-18 19:09:11,283 - root - INFO - API response: status 200, resp {'req_id': '791', 'status': 'OK'}
+2024-02-18 19:09:11,285 - root - INFO - API response: status 200, resp {'req_id': '792', 'status': 'OK'}
+2024-02-18 19:09:11,304 - root - INFO - API response: status 200, resp {'req_id': '793', 'status': 'OK'}
+2024-02-18 19:09:11,308 - root - INFO - API response: status 200, resp {'req_id': '794', 'status': 'OK'}
+2024-02-18 19:09:11,329 - root - INFO - API response: status 200, resp {'req_id': '796', 'status': 'OK'}
+2024-02-18 19:09:11,329 - root - WARNING - ignoring request 800 from queue due to TTL
+2024-02-18 19:09:11,329 - root - WARNING - ignoring request 801 from queue due to TTL
+2024-02-18 19:09:11,329 - root - WARNING - ignoring request 802 from queue due to TTL
+2024-02-18 19:09:11,329 - root - INFO - API response: status 200, resp {'req_id': '795', 'status': 'OK'}
+2024-02-18 19:09:11,345 - root - INFO - API response: status 200, resp {'req_id': '798', 'status': 'OK'}
+2024-02-18 19:09:11,349 - root - INFO - API response: status 200, resp {'req_id': '804', 'status': 'OK'}
+2024-02-18 19:09:11,352 - root - INFO - API response: status 200, resp {'req_id': '797', 'status': 'OK'}
+2024-02-18 19:09:11,375 - root - WARNING - ignoring request 806 in limiter due to TTL
+2024-02-18 19:09:11,375 - root - WARNING - ignoring request 808 from queue due to TTL
+2024-02-18 19:09:11,383 - root - INFO - API response: status 200, resp {'req_id': '807', 'status': 'OK'}
+2024-02-18 19:09:11,386 - root - INFO - API response: status 200, resp {'req_id': '803', 'status': 'OK'}
+2024-02-18 19:09:11,398 - root - WARNING - ignoring request 810 in limiter due to TTL
+2024-02-18 19:09:11,412 - root - INFO - API response: status 200, resp {'req_id': '799', 'status': 'OK'}
+2024-02-18 19:09:11,420 - root - INFO - API response: status 200, resp {'req_id': '811', 'status': 'OK'}
+2024-02-18 19:09:11,435 - root - INFO - API response: status 200, resp {'req_id': '805', 'status': 'OK'}
+2024-02-18 19:09:11,436 - root - INFO - API response: status 200, resp {'req_id': '809', 'status': 'OK'}
+2024-02-18 19:09:11,462 - root - INFO - API response: status 200, resp {'req_id': '815', 'status': 'OK'}
+2024-02-18 19:09:11,472 - root - WARNING - ignoring request 817 in limiter due to TTL
+2024-02-18 19:09:11,482 - root - WARNING - ignoring request 818 in limiter due to TTL
+2024-02-18 19:09:11,485 - root - INFO - API response: status 200, resp {'req_id': '814', 'status': 'OK'}
+2024-02-18 19:09:11,487 - root - INFO - API response: status 200, resp {'req_id': '813', 'status': 'OK'}
+2024-02-18 19:09:11,501 - root - INFO - API response: status 200, resp {'req_id': '821', 'status': 'OK'}
+2024-02-18 19:09:11,502 - root - INFO - API response: status 200, resp {'req_id': '812', 'status': 'OK'}
+2024-02-18 19:09:11,525 - root - INFO - API response: status 200, resp {'req_id': '816', 'status': 'OK'}
+2024-02-18 19:09:11,526 - root - INFO - API response: status 200, resp {'req_id': '820', 'status': 'OK'}
+2024-02-18 19:09:11,532 - root - INFO - API response: status 200, resp {'req_id': '819', 'status': 'OK'}
+2024-02-18 19:09:11,532 - root - WARNING - ignoring request 822 in limiter due to TTL
+2024-02-18 19:09:11,536 - root - INFO - API response: status 200, resp {'req_id': '823', 'status': 'OK'}
+2024-02-18 19:09:11,577 - root - INFO - API response: status 200, resp {'req_id': '827', 'status': 'OK'}
+2024-02-18 19:09:11,597 - root - INFO - API response: status 200, resp {'req_id': '824', 'status': 'OK'}
+2024-02-18 19:09:11,612 - root - INFO - API response: status 200, resp {'req_id': '826', 'status': 'OK'}
+2024-02-18 19:09:11,612 - root - INFO - API response: status 200, resp {'req_id': '828', 'status': 'OK'}
+2024-02-18 19:09:11,619 - root - INFO - API response: status 200, resp {'req_id': '825', 'status': 'OK'}
+2024-02-18 19:09:11,653 - root - INFO - API response: status 200, resp {'req_id': '830', 'status': 'OK'}
+2024-02-18 19:09:11,667 - root - INFO - API response: status 200, resp {'req_id': '831', 'status': 'OK'}
+2024-02-18 19:09:11,668 - root - INFO - API response: status 200, resp {'req_id': '829', 'status': 'OK'}
+2024-02-18 19:09:11,668 - root - INFO - API response: status 200, resp {'req_id': '832', 'status': 'OK'}
+2024-02-18 19:09:11,689 - root - INFO - API response: status 200, resp {'req_id': '833', 'status': 'OK'}
+2024-02-18 19:09:11,712 - root - INFO - API response: status 200, resp {'req_id': '836', 'status': 'OK'}
+2024-02-18 19:09:11,723 - root - INFO - API response: status 200, resp {'req_id': '834', 'status': 'OK'}
+2024-02-18 19:09:11,727 - root - INFO - API response: status 200, resp {'req_id': '837', 'status': 'OK'}
+2024-02-18 19:09:11,751 - root - INFO - API response: status 200, resp {'req_id': '835', 'status': 'OK'}
+2024-02-18 19:09:11,752 - root - INFO - API response: status 200, resp {'req_id': '838', 'status': 'OK'}
+2024-02-18 19:09:11,786 - root - INFO - API response: status 200, resp {'req_id': '839', 'status': 'OK'}
+2024-02-18 19:09:11,786 - root - WARNING - ignoring request 844 from queue due to TTL
+2024-02-18 19:09:11,786 - root - INFO - API response: status 200, resp {'req_id': '840', 'status': 'OK'}
+2024-02-18 19:09:11,791 - root - INFO - API response: status 200, resp {'req_id': '841', 'status': 'OK'}
+2024-02-18 19:09:11,793 - root - INFO - API response: status 200, resp {'req_id': '842', 'status': 'OK'}
+2024-02-18 19:09:11,802 - root - INFO - API response: status 200, resp {'req_id': '847', 'status': 'OK'}
+2024-02-18 19:09:11,833 - root - WARNING - ignoring request 849 in limiter due to TTL
+2024-02-18 19:09:11,834 - root - INFO - API response: status 200, resp {'req_id': '845', 'status': 'OK'}
+2024-02-18 19:09:11,840 - root - INFO - API response: status 200, resp {'req_id': '843', 'status': 'OK'}
+2024-02-18 19:09:11,845 - root - INFO - API response: status 200, resp {'req_id': '846', 'status': 'OK'}
+2024-02-18 19:09:11,861 - root - INFO - API response: status 200, resp {'req_id': '848', 'status': 'OK'}
+2024-02-18 19:09:11,899 - root - INFO - API response: status 200, resp {'req_id': '850', 'status': 'OK'}
+2024-02-18 19:09:11,899 - root - WARNING - ignoring request 855 from queue due to TTL
+2024-02-18 19:09:11,903 - root - INFO - API response: status 200, resp {'req_id': '851', 'status': 'OK'}
+2024-02-18 19:09:11,905 - root - INFO - API response: status 200, resp {'req_id': '853', 'status': 'OK'}
+2024-02-18 19:09:11,916 - root - INFO - API response: status 200, resp {'req_id': '852', 'status': 'OK'}
+2024-02-18 19:09:11,917 - root - INFO - API response: status 200, resp {'req_id': '854', 'status': 'OK'}
+2024-02-18 19:09:11,937 - root - INFO - API response: status 200, resp {'req_id': '860', 'status': 'OK'}
+2024-02-18 19:09:11,951 - root - INFO - API response: status 200, resp {'req_id': '857', 'status': 'OK'}
+2024-02-18 19:09:11,963 - root - INFO - API response: status 200, resp {'req_id': '858', 'status': 'OK'}
+2024-02-18 19:09:11,971 - root - INFO - API response: status 200, resp {'req_id': '856', 'status': 'OK'}
+2024-02-18 19:09:11,994 - root - INFO - API response: status 200, resp {'req_id': '863', 'status': 'OK'}
+2024-02-18 19:09:11,995 - root - INFO - API response: status 200, resp {'req_id': '859', 'status': 'OK'}
+2024-02-18 19:09:12,014 - root - INFO - API response: status 200, resp {'req_id': '862', 'status': 'OK'}
+2024-02-18 19:09:12,026 - root - INFO - API response: status 200, resp {'req_id': '864', 'status': 'OK'}
+2024-02-18 19:09:12,029 - root - INFO - API response: status 200, resp {'req_id': '867', 'status': 'OK'}
+2024-02-18 19:09:12,038 - root - INFO - API response: status 200, resp {'req_id': '861', 'status': 'OK'}
+2024-02-18 19:09:12,070 - root - INFO - API response: status 200, resp {'req_id': '866', 'status': 'OK'}
+2024-02-18 19:09:12,082 - root - INFO - API response: status 200, resp {'req_id': '868', 'status': 'OK'}
+2024-02-18 19:09:12,082 - root - INFO - API response: status 200, resp {'req_id': '865', 'status': 'OK'}
+2024-02-18 19:09:12,095 - root - INFO - API response: status 200, resp {'req_id': '870', 'status': 'OK'}
+2024-02-18 19:09:12,120 - root - INFO - API response: status 200, resp {'req_id': '871', 'status': 'OK'}
+2024-02-18 19:09:12,122 - root - INFO - API response: status 200, resp {'req_id': '872', 'status': 'OK'}
+2024-02-18 19:09:12,137 - root - INFO - API response: status 200, resp {'req_id': '873', 'status': 'OK'}
+2024-02-18 19:09:12,143 - root - INFO - API response: status 200, resp {'req_id': '869', 'status': 'OK'}
+2024-02-18 19:09:12,162 - root - INFO - API response: status 200, resp {'req_id': '874', 'status': 'OK'}
+2024-02-18 19:09:12,204 - root - INFO - API response: status 200, resp {'req_id': '877', 'status': 'OK'}
+2024-02-18 19:09:12,204 - root - WARNING - ignoring request 880 from queue due to TTL
+2024-02-18 19:09:12,205 - root - INFO - API response: status 200, resp {'req_id': '879', 'status': 'OK'}
+2024-02-18 19:09:12,206 - root - INFO - API response: status 200, resp {'req_id': '876', 'status': 'OK'}
+2024-02-18 19:09:12,215 - root - INFO - API response: status 200, resp {'req_id': '875', 'status': 'OK'}
+2024-02-18 19:09:12,224 - root - INFO - API response: status 200, resp {'req_id': '878', 'status': 'OK'}
+2024-02-18 19:09:12,245 - root - INFO - API response: status 200, resp {'req_id': '885', 'status': 'OK'}
+2024-02-18 19:09:12,249 - root - INFO - API response: status 200, resp {'req_id': '881', 'status': 'OK'}
+2024-02-18 19:09:12,254 - root - INFO - API response: status 200, resp {'req_id': '884', 'status': 'OK'}
+2024-02-18 19:09:12,262 - root - INFO - API response: status 200, resp {'req_id': '882', 'status': 'OK'}
+2024-02-18 19:09:12,293 - root - INFO - API response: status 200, resp {'req_id': '883', 'status': 'OK'}
+2024-02-18 19:09:12,316 - root - INFO - API response: status 200, resp {'req_id': '888', 'status': 'OK'}
+2024-02-18 19:09:12,317 - root - INFO - API response: status 200, resp {'req_id': '887', 'status': 'OK'}
+2024-02-18 19:09:12,354 - root - INFO - API response: status 200, resp {'req_id': '889', 'status': 'OK'}
+2024-02-18 19:09:12,354 - root - WARNING - ignoring request 893 from queue due to TTL
+2024-02-18 19:09:12,354 - root - WARNING - ignoring request 894 from queue due to TTL
+2024-02-18 19:09:12,357 - root - INFO - API response: status 200, resp {'req_id': '891', 'status': 'OK'}
+2024-02-18 19:09:12,358 - root - INFO - API response: status 200, resp {'req_id': '890', 'status': 'OK'}
+2024-02-18 19:09:12,358 - root - INFO - API response: status 200, resp {'req_id': '886', 'status': 'OK'}
+2024-02-18 19:09:12,370 - root - INFO - API response: status 200, resp {'req_id': '892', 'status': 'OK'}
+2024-02-18 19:09:12,395 - root - INFO - API response: status 200, resp {'req_id': '898', 'status': 'OK'}
+2024-02-18 19:09:12,397 - root - WARNING - ignoring request 900 in limiter due to TTL
+2024-02-18 19:09:12,400 - root - WARNING - ignoring request 901 in limiter due to TTL
+2024-02-18 19:09:12,421 - root - INFO - API response: status 200, resp {'req_id': '899', 'status': 'OK'}
+2024-02-18 19:09:12,429 - root - INFO - API response: status 200, resp {'req_id': '896', 'status': 'OK'}
+2024-02-18 19:09:12,430 - root - INFO - API response: status 200, resp {'req_id': '895', 'status': 'OK'}
+2024-02-18 19:09:12,432 - root - INFO - API response: status 200, resp {'req_id': '897', 'status': 'OK'}
+2024-02-18 19:09:12,463 - root - INFO - API response: status 200, resp {'req_id': '902', 'status': 'OK'}
+2024-02-18 19:09:12,485 - root - INFO - API response: status 200, resp {'req_id': '905', 'status': 'OK'}
+2024-02-18 19:09:12,485 - root - WARNING - ignoring request 908 from queue due to TTL
+2024-02-18 19:09:12,486 - root - INFO - API response: status 200, resp {'req_id': '903', 'status': 'OK'}
+2024-02-18 19:09:12,490 - root - INFO - API response: status 200, resp {'req_id': '906', 'status': 'OK'}
+2024-02-18 19:09:12,496 - root - INFO - API response: status 200, resp {'req_id': '907', 'status': 'OK'}
+2024-02-18 19:09:12,504 - root - INFO - API response: status 200, resp {'req_id': '911', 'status': 'OK'}
+2024-02-18 19:09:12,510 - root - INFO - API response: status 200, resp {'req_id': '904', 'status': 'OK'}
+2024-02-18 19:09:12,521 - root - INFO - API response: status 200, resp {'req_id': '909', 'status': 'OK'}
+2024-02-18 19:09:12,537 - root - WARNING - ignoring request 913 in limiter due to TTL
+2024-02-18 19:09:12,561 - root - INFO - API response: status 200, resp {'req_id': '910', 'status': 'OK'}
+2024-02-18 19:09:12,568 - root - INFO - API response: status 200, resp {'req_id': '914', 'status': 'OK'}
+2024-02-18 19:09:12,584 - root - INFO - API response: status 200, resp {'req_id': '912', 'status': 'OK'}
+2024-02-18 19:09:12,586 - root - INFO - API response: status 200, resp {'req_id': '916', 'status': 'OK'}
+2024-02-18 19:09:12,591 - root - WARNING - ignoring request 920 in limiter due to TTL
+2024-02-18 19:09:12,602 - root - INFO - API response: status 200, resp {'req_id': '915', 'status': 'OK'}
+2024-02-18 19:09:12,603 - root - WARNING - ignoring request 922 from queue due to TTL
+2024-02-18 19:09:12,623 - root - INFO - API response: status 200, resp {'req_id': '918', 'status': 'OK'}
+2024-02-18 19:09:12,629 - root - INFO - API response: status 200, resp {'req_id': '917', 'status': 'OK'}
+2024-02-18 19:09:12,661 - root - INFO - API response: status 200, resp {'req_id': '921', 'status': 'OK'}
+2024-02-18 19:09:12,661 - root - WARNING - ignoring request 926 from queue due to TTL
+2024-02-18 19:09:12,674 - root - INFO - API response: status 200, resp {'req_id': '919', 'status': 'OK'}
+2024-02-18 19:09:12,680 - root - INFO - API response: status 200, resp {'req_id': '923', 'status': 'OK'}
+2024-02-18 19:09:12,688 - root - INFO - API response: status 200, resp {'req_id': '924', 'status': 'OK'}
+2024-02-18 19:09:12,689 - root - INFO - API response: status 200, resp {'req_id': '927', 'status': 'OK'}
+2024-02-18 19:09:12,704 - root - INFO - API response: status 200, resp {'req_id': '925', 'status': 'OK'}
+2024-02-18 19:09:12,710 - root - WARNING - ignoring request 931 in limiter due to TTL
+2024-02-18 19:09:12,712 - root - INFO - API response: status 200, resp {'req_id': '929', 'status': 'OK'}
+2024-02-18 19:09:12,712 - root - INFO - API response: status 200, resp {'req_id': '928', 'status': 'OK'}
+2024-02-18 19:09:12,726 - root - WARNING - ignoring request 934 in limiter due to TTL
+2024-02-18 19:09:12,749 - root - INFO - API response: status 200, resp {'req_id': '933', 'status': 'OK'}
+2024-02-18 19:09:12,757 - root - INFO - API response: status 200, resp {'req_id': '930', 'status': 'OK'}
+2024-02-18 19:09:12,761 - root - WARNING - ignoring request 937 in limiter due to TTL
+2024-02-18 19:09:12,774 - root - INFO - API response: status 200, resp {'req_id': '938', 'status': 'OK'}
+2024-02-18 19:09:12,790 - root - INFO - API response: status 200, resp {'req_id': '935', 'status': 'OK'}
+2024-02-18 19:09:12,794 - root - WARNING - ignoring request 940 in limiter due to TTL
+2024-02-18 19:09:12,796 - root - INFO - API response: status 200, resp {'req_id': '932', 'status': 'OK'}
+2024-02-18 19:09:12,812 - root - INFO - API response: status 200, resp {'req_id': '936', 'status': 'OK'}
+2024-02-18 19:09:12,824 - root - INFO - API response: status 200, resp {'req_id': '939', 'status': 'OK'}
+2024-02-18 19:09:12,845 - root - INFO - API response: status 200, resp {'req_id': '943', 'status': 'OK'}
+2024-02-18 19:09:12,852 - root - INFO - API response: status 200, resp {'req_id': '941', 'status': 'OK'}
+2024-02-18 19:09:12,858 - root - INFO - API response: status 200, resp {'req_id': '942', 'status': 'OK'}
+2024-02-18 19:09:12,899 - root - INFO - API response: status 200, resp {'req_id': '947', 'status': 'OK'}
+2024-02-18 19:09:12,899 - root - WARNING - ignoring request 949 from queue due to TTL
+2024-02-18 19:09:12,906 - root - INFO - API response: status 200, resp {'req_id': '945', 'status': 'OK'}
+2024-02-18 19:09:12,906 - root - WARNING - ignoring request 951 from queue due to TTL
+2024-02-18 19:09:12,910 - root - INFO - API response: status 200, resp {'req_id': '948', 'status': 'OK'}
+2024-02-18 19:09:12,911 - root - INFO - API response: status 200, resp {'req_id': '946', 'status': 'OK'}
+2024-02-18 19:09:12,912 - root - INFO - API response: status 200, resp {'req_id': '944', 'status': 'OK'}
+2024-02-18 19:09:12,924 - root - INFO - API response: status 200, resp {'req_id': '950', 'status': 'OK'}
+2024-02-18 19:09:12,937 - root - WARNING - ignoring request 956 in limiter due to TTL
+2024-02-18 19:09:12,944 - root - INFO - API response: status 200, resp {'req_id': '955', 'status': 'OK'}
+2024-02-18 19:09:12,946 - root - INFO - API response: status 200, resp {'req_id': '954', 'status': 'OK'}
+2024-02-18 19:09:12,951 - root - WARNING - ignoring request 957 in limiter due to TTL
+2024-02-18 19:09:12,952 - root - WARNING - ignoring request 958 in limiter due to TTL
+2024-02-18 19:09:12,953 - root - INFO - API response: status 200, resp {'req_id': '952', 'status': 'OK'}
+2024-02-18 19:09:12,958 - root - WARNING - ignoring request 959 in limiter due to TTL
+2024-02-18 19:09:12,966 - root - INFO - API response: status 200, resp {'req_id': '953', 'status': 'OK'}
+2024-02-18 19:09:12,972 - root - INFO - API response: status 200, resp {'req_id': '960', 'status': 'OK'}
+2024-02-18 19:09:13,005 - root - INFO - API response: status 200, resp {'req_id': '961', 'status': 'OK'}
+2024-02-18 19:09:13,006 - root - INFO - API response: status 200, resp {'req_id': '964', 'status': 'OK'}
+2024-02-18 19:09:13,006 - root - INFO - API response: status 200, resp {'req_id': '963', 'status': 'OK'}
+2024-02-18 19:09:13,025 - root - INFO - API response: status 200, resp {'req_id': '962', 'status': 'OK'}
+2024-02-18 19:09:13,032 - root - INFO - API response: status 200, resp {'req_id': '968', 'status': 'OK'}
+2024-02-18 19:09:13,053 - root - INFO - API response: status 200, resp {'req_id': '965', 'status': 'OK'}
+2024-02-18 19:09:13,075 - root - INFO - API response: status 200, resp {'req_id': '969', 'status': 'OK'}
+2024-02-18 19:09:13,082 - root - INFO - API response: status 200, resp {'req_id': '967', 'status': 'OK'}
+2024-02-18 19:09:13,084 - root - INFO - API response: status 200, resp {'req_id': '966', 'status': 'OK'}
+2024-02-18 19:09:13,120 - root - INFO - API response: status 200, resp {'req_id': '970', 'status': 'OK'}
+2024-02-18 19:09:13,123 - root - INFO - API response: status 200, resp {'req_id': '971', 'status': 'OK'}
+2024-02-18 19:09:13,131 - root - INFO - API response: status 200, resp {'req_id': '974', 'status': 'OK'}
+2024-02-18 19:09:13,131 - root - INFO - API response: status 200, resp {'req_id': '973', 'status': 'OK'}
+2024-02-18 19:09:13,138 - root - INFO - API response: status 200, resp {'req_id': '972', 'status': 'OK'}
+2024-02-18 19:09:13,181 - root - INFO - API response: status 200, resp {'req_id': '978', 'status': 'OK'}
+2024-02-18 19:09:13,183 - root - INFO - API response: status 200, resp {'req_id': '976', 'status': 'OK'}
+2024-02-18 19:09:13,200 - root - INFO - API response: status 200, resp {'req_id': '977', 'status': 'OK'}
+2024-02-18 19:09:13,202 - root - INFO - API response: status 200, resp {'req_id': '975', 'status': 'OK'}
+2024-02-18 19:09:13,219 - root - INFO - API response: status 200, resp {'req_id': '979', 'status': 'OK'}
+2024-02-18 19:09:13,245 - root - INFO - API response: status 200, resp {'req_id': '980', 'status': 'OK'}
+2024-02-18 19:09:13,261 - root - INFO - API response: status 200, resp {'req_id': '984', 'status': 'OK'}
+2024-02-18 19:09:13,282 - root - INFO - API response: status 200, resp {'req_id': '983', 'status': 'OK'}
+2024-02-18 19:09:13,286 - root - INFO - API response: status 200, resp {'req_id': '981', 'status': 'OK'}
+2024-02-18 19:09:13,289 - root - INFO - API response: status 200, resp {'req_id': '982', 'status': 'OK'}
+2024-02-18 19:09:13,314 - root - INFO - API response: status 200, resp {'req_id': '985', 'status': 'OK'}
+2024-02-18 19:09:13,333 - root - INFO - API response: status 200, resp {'req_id': '989', 'status': 'OK'}
+2024-02-18 19:09:13,334 - root - WARNING - ignoring request 991 from queue due to TTL
+2024-02-18 19:09:13,334 - root - WARNING - ignoring request 992 from queue due to TTL
+2024-02-18 19:09:13,345 - root - INFO - API response: status 200, resp {'req_id': '987', 'status': 'OK'}
+2024-02-18 19:09:13,345 - root - INFO - API response: status 200, resp {'req_id': '988', 'status': 'OK'}
+2024-02-18 19:09:13,360 - root - INFO - API response: status 200, resp {'req_id': '986', 'status': 'OK'}
+2024-02-18 19:09:13,360 - root - WARNING - ignoring request 996 from queue due to TTL
+2024-02-18 19:09:13,375 - root - INFO - API response: status 200, resp {'req_id': '995', 'status': 'OK'}
+2024-02-18 19:09:13,380 - root - INFO - API response: status 200, resp {'req_id': '993', 'status': 'OK'}
+2024-02-18 19:09:13,389 - root - INFO - API response: status 200, resp {'req_id': '990', 'status': 'OK'}
+2024-02-18 19:09:13,393 - root - WARNING - ignoring request 998 in limiter due to TTL
+2024-02-18 19:09:13,396 - root - INFO - API response: status 200, resp {'req_id': '997', 'status': 'OK'}
+2024-02-18 19:09:13,401 - root - INFO - API response: status 200, resp {'req_id': '999', 'status': 'OK'}
+2024-02-18 19:09:13,413 - root - INFO - API response: status 200, resp {'req_id': '994', 'status': 'OK'}
+2024-02-18 19:09:13,417 - root - INFO - API response: status 200, resp {'req_id': '1000', 'status': 'OK'}
+2024-02-18 19:09:13,443 - root - INFO - API response: status 200, resp {'req_id': '1004', 'status': 'OK'}
+2024-02-18 19:09:13,491 - root - INFO - API response: status 200, resp {'req_id': '1002', 'status': 'OK'}
+2024-02-18 19:09:13,491 - root - INFO - API response: status 200, resp {'req_id': '1001', 'status': 'OK'}
+2024-02-18 19:09:13,515 - root - INFO - API response: status 200, resp {'req_id': '1008', 'status': 'OK'}
+2024-02-18 19:09:13,520 - root - INFO - API response: status 200, resp {'req_id': '1006', 'status': 'OK'}
+2024-02-18 19:09:13,523 - root - INFO - API response: status 200, resp {'req_id': '1003', 'status': 'OK'}
+2024-02-18 19:09:13,527 - root - INFO - API response: status 200, resp {'req_id': '1007', 'status': 'OK'}
+2024-02-18 19:09:13,529 - root - INFO - API response: status 200, resp {'req_id': '1005', 'status': 'OK'}
+2024-02-18 19:09:13,540 - root - INFO - API response: status 200, resp {'req_id': '1010', 'status': 'OK'}
+2024-02-18 19:09:13,543 - root - WARNING - ignoring request 1009 in limiter due to TTL
+2024-02-18 19:09:13,563 - root - INFO - API response: status 200, resp {'req_id': '1011', 'status': 'OK'}
+2024-02-18 19:09:13,607 - root - INFO - API response: status 200, resp {'req_id': '1013', 'status': 'OK'}
+2024-02-18 19:09:13,607 - root - WARNING - ignoring request 1017 from queue due to TTL
+2024-02-18 19:09:13,607 - root - WARNING - ignoring request 1018 from queue due to TTL
+2024-02-18 19:09:13,617 - root - INFO - API response: status 200, resp {'req_id': '1015', 'status': 'OK'}
+2024-02-18 19:09:13,628 - root - INFO - API response: status 200, resp {'req_id': '1019', 'status': 'OK'}
+2024-02-18 19:09:13,630 - root - INFO - API response: status 200, resp {'req_id': '1020', 'status': 'OK'}
+2024-02-18 19:09:13,633 - root - WARNING - ignoring request 1021 in limiter due to TTL
+2024-02-18 19:09:13,635 - root - INFO - API response: status 200, resp {'req_id': '1016', 'status': 'OK'}
+2024-02-18 19:09:13,645 - root - WARNING - ignoring request 1022 in limiter due to TTL
+2024-02-18 19:09:13,645 - root - INFO - API response: status 200, resp {'req_id': '1012', 'status': 'OK'}
+2024-02-18 19:09:13,648 - root - INFO - API response: status 200, resp {'req_id': '1014', 'status': 'OK'}
+2024-02-18 19:09:13,659 - root - INFO - API response: status 200, resp {'req_id': '1024', 'status': 'OK'}
+2024-02-18 19:09:13,688 - root - INFO - API response: status 200, resp {'req_id': '1026', 'status': 'OK'}
+2024-02-18 19:09:13,693 - root - INFO - API response: status 200, resp {'req_id': '1023', 'status': 'OK'}
+2024-02-18 19:09:13,695 - root - INFO - API response: status 200, resp {'req_id': '1027', 'status': 'OK'}
+2024-02-18 19:09:13,743 - root - INFO - API response: status 200, resp {'req_id': '1029', 'status': 'OK'}
+2024-02-18 19:09:13,762 - root - INFO - API response: status 200, resp {'req_id': '1030', 'status': 'OK'}
+2024-02-18 19:09:13,762 - root - WARNING - ignoring request 1033 from queue due to TTL
+2024-02-18 19:09:13,762 - root - WARNING - ignoring request 1034 from queue due to TTL
+2024-02-18 19:09:13,762 - root - WARNING - ignoring request 1035 from queue due to TTL
+2024-02-18 19:09:13,770 - root - INFO - API response: status 200, resp {'req_id': '1025', 'status': 'OK'}
+2024-02-18 19:09:13,775 - root - INFO - API response: status 200, resp {'req_id': '1031', 'status': 'OK'}
+2024-02-18 19:09:13,778 - root - INFO - API response: status 200, resp {'req_id': '1028', 'status': 'OK'}
+2024-02-18 19:09:13,790 - root - INFO - API response: status 200, resp {'req_id': '1036', 'status': 'OK'}
+2024-02-18 19:09:13,816 - root - INFO - API response: status 200, resp {'req_id': '1032', 'status': 'OK'}
+2024-02-18 19:09:13,816 - root - INFO - API response: status 200, resp {'req_id': '1037', 'status': 'OK'}
+2024-02-18 19:09:13,825 - root - INFO - API response: status 200, resp {'req_id': '1039', 'status': 'OK'}
+2024-02-18 19:09:13,849 - root - INFO - API response: status 200, resp {'req_id': '1038', 'status': 'OK'}
+2024-02-18 19:09:13,862 - root - INFO - API response: status 200, resp {'req_id': '1042', 'status': 'OK'}
+2024-02-18 19:09:13,864 - root - INFO - API response: status 200, resp {'req_id': '1040', 'status': 'OK'}
+2024-02-18 19:09:13,868 - root - INFO - API response: status 200, resp {'req_id': '1043', 'status': 'OK'}
+2024-02-18 19:09:13,887 - root - INFO - API response: status 200, resp {'req_id': '1041', 'status': 'OK'}
+2024-02-18 19:09:13,887 - root - WARNING - ignoring request 1048 from queue due to TTL
+2024-02-18 19:09:13,887 - root - WARNING - ignoring request 1049 from queue due to TTL
+2024-02-18 19:09:13,900 - root - INFO - API response: status 200, resp {'req_id': '1046', 'status': 'OK'}
+2024-02-18 19:09:13,925 - root - INFO - API response: status 200, resp {'req_id': '1045', 'status': 'OK'}
+2024-02-18 19:09:13,937 - root - INFO - API response: status 200, resp {'req_id': '1047', 'status': 'OK'}
+2024-02-18 19:09:13,937 - root - INFO - API response: status 200, resp {'req_id': '1044', 'status': 'OK'}
+2024-02-18 19:09:13,952 - root - INFO - API response: status 200, resp {'req_id': '1051', 'status': 'OK'}
+2024-02-18 19:09:13,955 - root - INFO - API response: status 200, resp {'req_id': '1050', 'status': 'OK'}
+2024-02-18 19:09:13,995 - root - INFO - API response: status 200, resp {'req_id': '1052', 'status': 'OK'}
+2024-02-18 19:09:14,010 - root - INFO - API response: status 200, resp {'req_id': '1053', 'status': 'OK'}
+2024-02-18 19:09:14,010 - root - WARNING - ignoring request 1058 from queue due to TTL
+2024-02-18 19:09:14,020 - root - INFO - API response: status 200, resp {'req_id': '1054', 'status': 'OK'}
+2024-02-18 19:09:14,020 - root - WARNING - ignoring request 1060 from queue due to TTL
+2024-02-18 19:09:14,028 - root - INFO - API response: status 200, resp {'req_id': '1056', 'status': 'OK'}
+2024-02-18 19:09:14,035 - root - INFO - API response: status 200, resp {'req_id': '1057', 'status': 'OK'}
+2024-02-18 19:09:14,038 - root - INFO - API response: status 200, resp {'req_id': '1055', 'status': 'OK'}
+2024-02-18 19:09:14,048 - root - INFO - API response: status 200, resp {'req_id': '1059', 'status': 'OK'}
+2024-02-18 19:09:14,082 - root - INFO - API response: status 200, resp {'req_id': '1061', 'status': 'OK'}
+2024-02-18 19:09:14,082 - root - INFO - API response: status 200, resp {'req_id': '1064', 'status': 'OK'}
+2024-02-18 19:09:14,120 - root - INFO - API response: status 200, resp {'req_id': '1066', 'status': 'OK'}
+2024-02-18 19:09:14,120 - root - WARNING - ignoring request 1068 from queue due to TTL
+2024-02-18 19:09:14,121 - root - INFO - API response: status 200, resp {'req_id': '1062', 'status': 'OK'}
+2024-02-18 19:09:14,121 - root - INFO - API response: status 200, resp {'req_id': '1067', 'status': 'OK'}
+2024-02-18 19:09:14,130 - root - WARNING - ignoring request 1069 in limiter due to TTL
+2024-02-18 19:09:14,136 - root - INFO - API response: status 200, resp {'req_id': '1063', 'status': 'OK'}
+2024-02-18 19:09:14,146 - root - INFO - API response: status 200, resp {'req_id': '1065', 'status': 'OK'}
+2024-02-18 19:09:14,159 - root - INFO - API response: status 200, resp {'req_id': '1072', 'status': 'OK'}
+2024-02-18 19:09:14,200 - root - INFO - API response: status 200, resp {'req_id': '1070', 'status': 'OK'}
+2024-02-18 19:09:14,200 - root - WARNING - ignoring request 1076 from queue due to TTL
+2024-02-18 19:09:14,200 - root - WARNING - ignoring request 1077 from queue due to TTL
+2024-02-18 19:09:14,202 - root - INFO - API response: status 200, resp {'req_id': '1074', 'status': 'OK'}
+2024-02-18 19:09:14,226 - root - INFO - API response: status 200, resp {'req_id': '1073', 'status': 'OK'}
+2024-02-18 19:09:14,234 - root - INFO - API response: status 200, resp {'req_id': '1071', 'status': 'OK'}
+2024-02-18 19:09:14,252 - root - INFO - API response: status 200, resp {'req_id': '1078', 'status': 'OK'}
+2024-02-18 19:09:14,258 - root - INFO - API response: status 200, resp {'req_id': '1079', 'status': 'OK'}
+2024-02-18 19:09:14,268 - root - INFO - API response: status 200, resp {'req_id': '1080', 'status': 'OK'}
+2024-02-18 19:09:14,269 - root - INFO - API response: status 200, resp {'req_id': '1081', 'status': 'OK'}
+2024-02-18 19:09:14,278 - root - WARNING - ignoring request 1084 in limiter due to TTL
+2024-02-18 19:09:14,283 - root - WARNING - ignoring request 1085 in limiter due to TTL
+2024-02-18 19:09:14,285 - root - INFO - API response: status 200, resp {'req_id': '1075', 'status': 'OK'}
+2024-02-18 19:09:14,304 - root - INFO - API response: status 200, resp {'req_id': '1082', 'status': 'OK'}
+2024-02-18 19:09:14,305 - root - WARNING - ignoring request 1089 from queue due to TTL
+2024-02-18 19:09:14,309 - root - INFO - API response: status 200, resp {'req_id': '1086', 'status': 'OK'}
+2024-02-18 19:09:14,329 - root - INFO - API response: status 200, resp {'req_id': '1083', 'status': 'OK'}
+2024-02-18 19:09:14,343 - root - INFO - API response: status 200, resp {'req_id': '1087', 'status': 'OK'}
+2024-02-18 19:09:14,362 - root - INFO - API response: status 200, resp {'req_id': '1088', 'status': 'OK'}
+2024-02-18 19:09:14,383 - root - INFO - API response: status 200, resp {'req_id': '1094', 'status': 'OK'}
+2024-02-18 19:09:14,383 - root - WARNING - ignoring request 1095 from queue due to TTL
+2024-02-18 19:09:14,385 - root - WARNING - ignoring request 1096 in limiter due to TTL
+2024-02-18 19:09:14,387 - root - WARNING - ignoring request 1097 in limiter due to TTL
+2024-02-18 19:09:14,393 - root - INFO - API response: status 200, resp {'req_id': '1092', 'status': 'OK'}
+2024-02-18 19:09:14,397 - root - WARNING - ignoring request 1098 in limiter due to TTL
+2024-02-18 19:09:14,407 - root - INFO - API response: status 200, resp {'req_id': '1093', 'status': 'OK'}
+2024-02-18 19:09:14,414 - root - INFO - API response: status 200, resp {'req_id': '1091', 'status': 'OK'}
+2024-02-18 19:09:14,414 - root - INFO - API response: status 200, resp {'req_id': '1090', 'status': 'OK'}
+2024-02-18 19:09:14,428 - root - INFO - API response: status 200, resp {'req_id': '1099', 'status': 'OK'}
+2024-02-18 19:09:14,462 - root - INFO - API response: status 200, resp {'req_id': '1101', 'status': 'OK'}
+2024-02-18 19:09:14,463 - root - INFO - API response: status 200, resp {'req_id': '1100', 'status': 'OK'}
+2024-02-18 19:09:14,493 - root - INFO - API response: status 200, resp {'req_id': '1102', 'status': 'OK'}
+2024-02-18 19:09:14,503 - root - INFO - API response: status 200, resp {'req_id': '1103', 'status': 'OK'}
+2024-02-18 19:09:14,522 - root - INFO - API response: status 200, resp {'req_id': '1104', 'status': 'OK'}
+2024-02-18 19:09:14,522 - root - WARNING - ignoring request 1109 from queue due to TTL
+2024-02-18 19:09:14,538 - root - INFO - API response: status 200, resp {'req_id': '1106', 'status': 'OK'}
+2024-02-18 19:09:14,543 - root - INFO - API response: status 200, resp {'req_id': '1105', 'status': 'OK'}
+2024-02-18 19:09:14,550 - root - INFO - API response: status 200, resp {'req_id': '1108', 'status': 'OK'}
+2024-02-18 19:09:14,556 - root - INFO - API response: status 200, resp {'req_id': '1107', 'status': 'OK'}
+2024-02-18 19:09:14,575 - root - INFO - API response: status 200, resp {'req_id': '1112', 'status': 'OK'}
+2024-02-18 19:09:14,579 - root - INFO - API response: status 200, resp {'req_id': '1110', 'status': 'OK'}
+2024-02-18 19:09:14,581 - root - INFO - API response: status 200, resp {'req_id': '1111', 'status': 'OK'}
+2024-02-18 19:09:14,585 - root - WARNING - ignoring request 1115 in limiter due to TTL
+2024-02-18 19:09:14,628 - root - INFO - API response: status 200, resp {'req_id': '1116', 'status': 'OK'}
+2024-02-18 19:09:14,629 - root - WARNING - ignoring request 1119 from queue due to TTL
+2024-02-18 19:09:14,633 - root - INFO - API response: status 200, resp {'req_id': '1113', 'status': 'OK'}
+2024-02-18 19:09:14,641 - root - INFO - API response: status 200, resp {'req_id': '1114', 'status': 'OK'}
+2024-02-18 19:09:14,654 - root - INFO - API response: status 200, resp {'req_id': '1118', 'status': 'OK'}
+2024-02-18 19:09:14,671 - root - INFO - API response: status 200, resp {'req_id': '1121', 'status': 'OK'}
+2024-02-18 19:09:14,674 - root - INFO - API response: status 200, resp {'req_id': '1117', 'status': 'OK'}
+2024-02-18 19:09:14,682 - root - WARNING - ignoring request 1124 in limiter due to TTL
+2024-02-18 19:09:14,688 - root - INFO - API response: status 200, resp {'req_id': '1122', 'status': 'OK'}
+2024-02-18 19:09:14,712 - root - INFO - API response: status 200, resp {'req_id': '1125', 'status': 'OK'}
+2024-02-18 19:09:14,712 - root - WARNING - ignoring request 1128 from queue due to TTL
+2024-02-18 19:09:14,712 - root - WARNING - ignoring request 1129 from queue due to TTL
+2024-02-18 19:09:14,712 - root - WARNING - ignoring request 1130 from queue due to TTL
+2024-02-18 19:09:14,714 - root - WARNING - ignoring request 1131 in limiter due to TTL
+2024-02-18 19:09:14,719 - root - INFO - API response: status 200, resp {'req_id': '1120', 'status': 'OK'}
+2024-02-18 19:09:14,725 - root - INFO - API response: status 200, resp {'req_id': '1123', 'status': 'OK'}
+2024-02-18 19:09:14,755 - root - INFO - API response: status 200, resp {'req_id': '1126', 'status': 'OK'}
+2024-02-18 19:09:14,755 - root - WARNING - ignoring request 1135 from queue due to TTL
+2024-02-18 19:09:14,755 - root - WARNING - ignoring request 1136 from queue due to TTL
+2024-02-18 19:09:14,755 - root - WARNING - ignoring request 1137 from queue due to TTL
+2024-02-18 19:09:14,769 - root - INFO - API response: status 200, resp {'req_id': '1138', 'status': 'OK'}
+2024-02-18 19:09:14,769 - root - INFO - API response: status 200, resp {'req_id': '1134', 'status': 'OK'}
+2024-02-18 19:09:14,771 - root - INFO - API response: status 200, resp {'req_id': '1132', 'status': 'OK'}
+2024-02-18 19:09:14,775 - root - WARNING - ignoring request 1139 in limiter due to TTL
+2024-02-18 19:09:14,778 - root - INFO - API response: status 200, resp {'req_id': '1133', 'status': 'OK'}
+2024-02-18 19:09:14,787 - root - INFO - API response: status 200, resp {'req_id': '1127', 'status': 'OK'}
+2024-02-18 19:09:14,803 - root - WARNING - ignoring request 1142 in limiter due to TTL
+2024-02-18 19:09:14,838 - root - INFO - API response: status 200, resp {'req_id': '1140', 'status': 'OK'}
+2024-02-18 19:09:14,841 - root - INFO - API response: status 200, resp {'req_id': '1143', 'status': 'OK'}
+2024-02-18 19:09:14,846 - root - INFO - API response: status 200, resp {'req_id': '1145', 'status': 'OK'}
+2024-02-18 19:09:14,853 - root - INFO - API response: status 200, resp {'req_id': '1141', 'status': 'OK'}
+2024-02-18 19:09:14,863 - root - INFO - API response: status 200, resp {'req_id': '1146', 'status': 'OK'}
+2024-02-18 19:09:14,879 - root - INFO - API response: status 200, resp {'req_id': '1144', 'status': 'OK'}
+2024-02-18 19:09:14,886 - root - INFO - API response: status 200, resp {'req_id': '1147', 'status': 'OK'}
+2024-02-18 19:09:14,911 - root - INFO - API response: status 200, resp {'req_id': '1151', 'status': 'OK'}
+2024-02-18 19:09:14,925 - root - INFO - API response: status 200, resp {'req_id': '1152', 'status': 'OK'}
+2024-02-18 19:09:14,928 - root - WARNING - ignoring request 1153 in limiter due to TTL
+2024-02-18 19:09:14,934 - root - INFO - API response: status 200, resp {'req_id': '1148', 'status': 'OK'}
+2024-02-18 19:09:14,935 - root - INFO - API response: status 200, resp {'req_id': '1149', 'status': 'OK'}
+2024-02-18 19:09:14,935 - root - WARNING - ignoring request 1154 in limiter due to TTL
+2024-02-18 19:09:14,982 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-3' coro=<exchange_facing_worker() done, defined at /Users/I590056/Documents/sites/exercise1/simple_client.py:103> exception=KeyboardInterrupt()>
+Traceback (most recent call last):
+  File "/Users/I590056/Documents/sites/exercise1/simple_client.py", line 156, in <module>
+    main()
+  File "/Users/I590056/Documents/sites/exercise1/simple_client.py", line 147, in main
+    loop.run_forever()
+  File "/opt/homebrew/Cellar/python@3.10/3.10.13_2/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 603, in run_forever
+    self._run_once()
+  File "/opt/homebrew/Cellar/python@3.10/3.10.13_2/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1909, in _run_once
+    handle._run()
+  File "/opt/homebrew/Cellar/python@3.10/3.10.13_2/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Users/I590056/Documents/sites/exercise1/simple_client.py", line 118, in exchange_facing_worker
+    async with session.request('GET',
+  File "/Users/I590056/Documents/sites/exercise1/venv/lib/python3.10/site-packages/aiohttp/client.py", line 1194, in __aenter__
+    self._resp = await self._coro
+  File "/Users/I590056/Documents/sites/exercise1/venv/lib/python3.10/site-packages/aiohttp/client.py", line 578, in _request
+    conn = await self._connector.connect(
+  File "/Users/I590056/Documents/sites/exercise1/venv/lib/python3.10/site-packages/aiohttp/connector.py", line 544, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/Users/I590056/Documents/sites/exercise1/venv/lib/python3.10/site-packages/aiohttp/connector.py", line 911, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/Users/I590056/Documents/sites/exercise1/venv/lib/python3.10/site-packages/aiohttp/connector.py", line 1204, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+  File "/Users/I590056/Documents/sites/exercise1/venv/lib/python3.10/site-packages/aiohttp/connector.py", line 992, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs)
+  File "/opt/homebrew/Cellar/python@3.10/3.10.13_2/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1060, in create_connection
+    sock = await self._connect_sock(
+  File "/opt/homebrew/Cellar/python@3.10/3.10.13_2/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 946, in _connect_sock
+    sock = socket.socket(family=family, type=type_, proto=proto)
+  File "/opt/homebrew/Cellar/python@3.10/3.10.13_2/Frameworks/Python.framework/Versions/3.10/lib/python3.10/socket.py", line 232, in __init__
+    _socket.socket.__init__(self, family, type, proto, fileno)
+KeyboardInterrupt
