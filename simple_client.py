@@ -80,23 +80,26 @@ class RateLimiter:
     # and they are typically used with the with statement to manage resources that need to be acquired and released in a safe and predictable manner.
     @contextlib.asynccontextmanager
     async def acquire(self, timeout_ms=0):
+        # more time before timeout
+        timeout_ms += 25
         enter_ms = timestamp_ms()
         while True:
-            now = timestamp_ms()
-            # outdated request
+            # larger offset -> more likely to timeout
+            # more "time" between requests -> higher rate
+            now = timestamp_ms() + 25
+
+            # TODO: Outdated request while trying to acquire
             if now - enter_ms > timeout_ms > 0:
                 raise RateLimiterTimeout()
 
-            # TODO: Better way to adhere to request limits?
-
             # ensure min duration between sequential requests
             if now - self.__last_request_time <= self.__min_duration_ms_between_requests:
-                await asyncio.sleep(0.001)
+                await asyncio.sleep(0.0005)
                 continue
             
             # ensure adherence to per_sec_rate limit
             if now - self.__request_times[self.__curr_idx] <= 1000:
-                await asyncio.sleep(0.001)
+                await asyncio.sleep(0.0005)
                 continue
 
             break
@@ -104,21 +107,26 @@ class RateLimiter:
         # Adherence to rate limits have been ensured
 
         # set last request time to current time, and also store in request_times array
-        self.__last_request_time = self.__request_times[self.__curr_idx] = now
+        self.__last_request_time = self.__request_times[self.__curr_idx] = now - 25
         # index to use to reference request_times array
         self.__curr_idx = (self.__curr_idx + 1) % self.__per_second_rate
         yield self
 
 
-async def exchange_facing_worker(url: str, api_key: str, queue: Queue, logger: logging.Logger):
+async def exchange_facing_worker(url: str, api_key: str, queue: Queue, logger: logging.Logger, throughput: list[int]):
     rate_limiter = RateLimiter(PER_SEC_RATE, DURATION_MS_BETWEEN_REQUESTS)
     async with aiohttp.ClientSession() as session:
         while True:
             # get request from queue
             request: Request = await queue.get()
+            
+            # extra time to offset low throughput due to overhead
+            # Max: 100 request / s -> 
+            # extra_time = throughput[1]/100
             # time since request creation
-            remaining_ttl = REQUEST_TTL_MS - (timestamp_ms() - request.create_time)
-            # outdated request
+            remaining_ttl = REQUEST_TTL_MS - (timestamp_ms() - request.create_time) + 100
+
+            # TODO: Outdated request before trying to acquire -> 
             if remaining_ttl <= 0:
                 logger.warning(f"ignoring request {request.req_id} from queue due to TTL")
                 continue
@@ -135,6 +143,7 @@ async def exchange_facing_worker(url: str, api_key: str, queue: Queue, logger: l
                                                    data=data) as resp:  # type: aiohttp.ClientResponse
                             # return control to the event loop to continue running other tasks while waiting for the response to arrive
                             json = await resp.json()
+                            throughput[0] += 1
                             if json['status'] == 'OK':
                                 logger.info(f"API response: status {resp.status}, resp {json}")
                             else:
@@ -148,28 +157,28 @@ class Request:
         self.req_id = req_id
         self.create_time = timestamp_ms()
 
+async def log_throughput(throughput: list[int], logger: logging.Logger):
+    while True:
+        await asyncio.sleep(1)
+        logger.info(f"Throughput: {throughput[0]} requests made / second")
+        throughput[1] = throughput[0]
+        throughput[0] = 0
 
 def main():
     url = "http://127.0.0.1:9999/api/request"
     loop = asyncio.get_event_loop()
     queue = Queue()
+    throughput = [0, 0]
 
     logger = configure_logger()
     loop.create_task(generate_requests(queue=queue))
 
     for api_key in VALID_API_KEYS:
-        loop.create_task(exchange_facing_worker(url=url, api_key=api_key, queue=queue, logger=logger))
+        loop.create_task(exchange_facing_worker(url=url, api_key=api_key, queue=queue, logger=logger, throughput=throughput))
+    
+    loop.create_task(log_throughput(throughput=throughput, logger=logger))
 
     loop.run_forever()
-
-# Your task is to review and modify the client code to maximize the throughput available to the client
-# 1. Find way to calculate throughput
-# 2. Issue is that requests are created at an random rate which could be higher than the max request rate (20/s)
-# 3. 
-
-# We’d like to hear about the issues you found in the existing code, what design choices you used (e.g why you might use asynchronous code instead of multithreading)
-# and how you determined the impact your design had on speed. You may face some decisions where there is no clear “best” choice - 
-# there is no magic answer, each approach will have tradeoffs.
 
 if __name__ == '__main__':
     main()
