@@ -1,7 +1,33 @@
-### Initial test
-From the calculation of throughput, we have about a rate of `76.5` in total for 5 keys, so about `15.3` requests per second out of a possible `20`
-No request rate overflow at all
+## Task
+### Your task is to review and modify the client code to maximize the throughput available to the client
+We’d like to hear about the issues you found in the existing code, what design choices you used (e.g why you might use asynchronous code instead of multithreading)
+and how you determined the impact your design had on speed. You may face some decisions where there is no clear “best” choice - 
+There is no magic answer, each approach will have tradeoffs.
 
+## The approach
+1. Find a way to calculate throughput and theoretical optimal throughput
+2. The issue is that requests are created at a random rate which could be higher than the max request rate (20/s)
+3. Two ways in which orders expire before sending, when received from queue, and while waiting in acquire
+4. Ensure we do not exceed the limit rate as it may result in ban
+
+## Metrics (units / second)
+### Max Possible Throughput
+The number of orders received from the queue, including orders that expire before processing and during processing (capped at 20*5 API_KEY = 100 orders per second)
+### Average Throughput
+The number of orders that were successfully made
+### Ignored from queue
+Number of orders that expired before waiting for acquire due to timeout of 1 second between order creation and order processing
+### Limited by Limiter
+Number of orders that expire while waiting for acquire
+### Exceeds
+Number of rate limit errors
+- Since the number of limit exceeds accumulate without reset, we need to keep it to 0, although in a real world system, this metric probably resets on a regular time basis
+
+### Initial test
+From the calculation of throughput, we have about a rate of ~`75` in total for 5 keys with a max possible throughput of ~`90`, so about `15` requests per second out of a possible `18`
+No request rate overflow at all
+Average ignored from queue was ~`8.7` and limited by limiter was ~`6.3`
+Thus overhead was high as quite a few requests expired even before being removed from the queue
 
 ### Assumption / Question 1
 While we are trying to optimize throughput only, how much priority do we give to time between order creation or order sent?
@@ -20,44 +46,52 @@ so now we are limiting our throughput to: throughput = 1 / (n + x)
 - Need to minus same offset from _last_request_time and _request_times[i] -> we want to keep the offset only to current_time, but not to _last_request_time and _request_times[i] (offset will cancel out)
     - Just minus from _last_request_time and _request_times[i]
 - What offset to use? Calculating offset
-1. Measure theoretical optimal throughput
-    requests < 100 -> throughput = requests
-    requests >= 100 -> throughput = 100
 
 ### Optimal Throughput given that we cannot exceed max_request_per_sec
-- With the current approach of adding an offset in _last_request_time and _request_times[i] to reduce wait time between requests and requests/sec, we reduce requests that expire while waiting to acquire to ~0.16 / sec
+- With the current approach of adding an offset in _last_request_time and _request_times[i] to reduce wait time between requests and requests/sec, we reduce requests that expire while waiting to acquire
 - With less waiting, overall acquiring time is also lower -> fewer requests will expire while waiting in the queue
-- Achieved throughput: `82.7`
-    - 15 Exceeds of request limit (too high)
-- Max possible throughput: `88-89`
-- Limiting request limit
+- Offset of 25ms:
+    - In first 10,000 orders -> Achieved throughput: `81.2`
+    - 29 Exceeds of request limit (too high)
+    - In the first 20,000 orders, throughput dropped to `74.3`
+    - 43 Exceeds and 1505 rejections due to blocked key
+
 - Offset = `10` ms
-    - Achieved throughput: `80.7`
-    - 1 Exceeds of request limit
+    - Achieved throughput: `78.7`
+    - 4 Exceeds of request limit in ~30,000 requests
+    - Improved throughput of ~`3.7` orders / second, while only having ~`1/10,000` requests that exceed order limit
 
-### IDEA 2 : Optimising sleep time when waiting between requests and requests / min
-- Increasing sleep_time to 0.002 -> lower overhead -> marginal / detrimental as increased number of requests expired in queue -> lower throughput of acquire
+### IDEA 2: Optimising sleep time when waiting between requests and requests / min
+Using tests of ~`30,000`
+- Increasing sleep_time to 0.002
+    - Lower overhead due to less switching by the asyncio library
+    - Longer time between when order is ready to send but still waiting in acquire
+    - Throughput: `78.7`, Exceeds: `3`
+    - Almost identical results to original value of 0.001
 - Decreasing sleep_time to 0.005 -> higher overhead -> more requests expired in queue, no difference in throughput of acquire
-- Current rate of 0.001 is fine
+    - Throughput: `80.7`, Exceeds: `20`
+    - Improved throughput, but number of exceeds is unsustainable
+- Current rate of 0.001 is quite desirable
 
+## Multithreading
+To balance order creation and order execution, the thread controller is an async function with the async request generator, each being allocated the same amount of time on average
+- In request generator: `async.io.sleep(MAX_SLEEP_MS = 1000 / PER_SEC_RATE / len(VALID_API_KEYS) * 1.05 * 2.0)` `sleep_ms = random.randint(0, MAX_SLEEP_MS)`
+- In thread controller: `async_sleep_time = (1 / PER_SEC_RATE) * 1.05`
 
-## Metrics
-### Ignored from queue
-Time between order and processing
-Maybe if the time remaining is too little, do not pass to Limiter since its unlikely to process
+To maximise throughput without going over the order limit, the program created as many threads as the max number of requests allowed / second, while restricting the `time_to_live` for each order.
+- `time_to_live` time is recorded when order is removed from the queue by the thread controller, and the order is passed into the thread if `time_to_live` > 0
+- In the thread, we enforce that the thread will not give itself up for the duration of `1` second, calling sleep on the remaining time
+    - `time.sleep(1 - (current_time - entry_time)`
+    - Thus with 20 threads per API_KEY, and each threading running for `1` second, we achieve the limit of 20 calls / second
 
-### Limited by Limiter
-Time between order and request
-### Exceeds
-Since the number of limit exceeds accumulate without reset, might need to keep it to 0, IRL: probably resets
+### Advantages
+Throughput rate is high since the overhead for ensuring adherence to order limit is keep by setting the max number of threads and ensuring each thread takes 1 second per request
+- `87.8` successful request/sec
+- `0` exceeds: There are no instances of order limit exceed due to the limit set by the number of threads and time taken by each thread
+- `43` Nonce Errors: Since nonces must be strictly increasing for each API_KEY, due to the nature of multi-threading where the order of thread execution is not fixed, there are a few instances where threads with newer orders are executed before older orders. At a rate of about ~`1/1000` requests, it is not a significant issue
 
-## Task
-### Your task is to review and modify the client code to maximize the throughput available to the client
-1. Find a way to calculate throughput
-should measure theoretical optimal throughput
-requests < 100 -> throughput = requests
-requests >= 100 -> throughput = 100
-2. The issue is that requests are created at a random rate which could be higher than the max request rate (20/s)
-We’d like to hear about the issues you found in the existing code, what design choices you used (e.g why you might use asynchronous code instead of multithreading)
-and how you determined the impact your design had on speed. You may face some decisions where there is no clear “best” choice - 
-There is no magic answer, each approach will have tradeoffs.
+### Disadvantages
+Hard to ensure fair allocation of CPU time to order generator and thread controller in the case where there might be a lot more or less orders being created (perhaps due to the nature of the simulation)
+In our stress test, where the order creation rate is doubled, we see that the thread execution order had a lot more disorder, likely due to the higher rate of switching between the async functions.
+Might need to introduce thread synchronization in such cases, which would increase the complexity of the implementation and introduce more overhead
+In the stress test, there were also `11` exceeds in about `5000` requests, indicating that the order limit mechanism did not perform well when throughput was at its limit, likely due to variance. The solution will be to introduce a buffer such that the order limit is not reached even where there is variance in the timing mechanism and context switching of theads.
