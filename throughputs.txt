@@ -1,0 +1,83 @@
+Max Possible Throughput: 90.26060606060607
+Average Throughput: 75.42553191489361
+Lowest Throughput: 69
+Average Ignored from Queue: 8.74468085106383
+Average Limited by Limiter: 6.310030395136778
+Exceeds: 0
+Bans: 0
+Total Time: 0:05:31.039000
+
+offset = 25 (first 10000)
+Max Possible Throughput: 89.35135135135135
+Average Throughput: 81.22727272727273
+Lowest Throughput: 73
+Average Ignored from Queue: 7.327272727272727
+Average Limited by Limiter: 0.36363636363636365
+Exceeds: 29
+Bans: 0
+Total Time: 0:01:51.876000
+
+offset = 25 (all 20000)
+Max Possible Throughput: 89.88738738738739
+Average Throughput: 74.34389140271493
+Lowest Throughput: 46
+Average Ignored from Queue: 8.176470588235293
+Average Limited by Limiter: 0.3076923076923077
+Exceeds: 43
+Bans: 1505
+Total Time: 0:03:42.507000
+
+offset = 10
+Max Possible Throughput: 90.09036144578313
+Average Throughput: 78.69184290030212
+Lowest Throughput: 71
+Average Ignored from Queue: 8.851963746223564
+Average Limited by Limiter: 2.510574018126888
+Exceeds: 4
+Bans: 0
+Total Time: 0:05:33.114000
+
+offset = 10
+sleep_time = 0.002
+Max Possible Throughput: 89.82479784366576
+Average Throughput: 78.74864864864865
+Lowest Throughput: 70
+Average Ignored from Queue: 8.356756756756758
+Average Limited by Limiter: 2.7
+Exceeds: 3
+Bans: 0
+Total Time: 0:06:12.105000
+
+offset = 10
+sleep_time = 0.0005
+Max Possible Throughput: 90.71818181818182
+Average Throughput: 80.6838905775076
+Lowest Throughput: 71
+Average Ignored from Queue: 7.504559270516717
+Average Limited by Limiter: 2.501519756838906
+Exceeds: 20
+Bans: 0
+Total Time: 0:05:30.864000
+
+Multithreading
+Max Possible Throughput: 88.20857142857143
+Average Throughput: 87.83381088825215
+Lowest Throughput: 75
+Average Ignored from Queue: 0.0
+Average Limited by Limiter: 0.0
+Exceeds: 0
+Bans: 0
+Nonce Errors: 43
+Total Time: 0:05:50.948000
+
+Stress Testing
+Average Requests Rate: 165.85416666666666
+Max Possible Throughput: 100
+Average Throughput: 82.66666666666667
+Lowest Throughput: 69
+Average Ignored from Queue: 0.0
+Average Limited by Limiter: 0.0
+Exceeds: 11
+Bans: 0
+Nonce Errors: 701
+Total Time: 0:00:49.938000
