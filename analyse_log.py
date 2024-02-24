@@ -14,6 +14,7 @@ ignored_queue = 0
 limited = 0
 bans = 0
 exceeds = 0
+nonce_errors = 0
 
 item = lines[0].split()
 firstTime = startTime = datetime.strptime(item[1], time_format)
@@ -40,9 +41,12 @@ for line in lines[1:]:
         elif items[11] == 'limiter':
             limited += 1
         elif items[10] == '429,':
-            exceeds += 1
-        # elif items[10] == '403,':
-        #     bans += 1
+            if items[13] == "'too":
+                bans += 1
+            else:
+                exceeds += 1
+        elif items[10] == '400,':
+            nonce_errors += 1
 
 transposed_metrics = list(zip(*metrics))
 
@@ -61,4 +65,6 @@ with open('throughputs.txt', 'a') as file:
     file.write(f"Average Ignored from Queue: {avg_ignored_queue}\n")
     file.write(f"Average Limited by Limiter: {avg_limited}\n")
     file.write(f"Exceeds: {exceeds}\n")
+    file.write(f"Bans: {bans}\n")
+    file.write(f"Nonce Errors: {nonce_errors}\n")
     file.write(f"Total Time: {totalTime}\n")

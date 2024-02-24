@@ -146,8 +146,8 @@ async def exchange_facing_worker(url: str, api_key: str, queue: Queue, logger: l
                                                    data=data) as resp:  # type: aiohttp.ClientResponse
                             # return control to the event loop to continue running other tasks while waiting for the response to arrive
                             json = await resp.json()
-                            throughput[0] += 1
                             if json['status'] == 'OK':
+                                throughput[0] += 1
                                 logger.info(f"API response: status {resp.status}, resp {json}")
                             else:
                                 logger.warning(f"API response: status {resp.status}, resp {json}")
@@ -163,18 +163,19 @@ def worker(url: str, api_key: str, nonce: str, req_id: str, timeout_ms: int, log
     data = {'api_key': api_key, 'nonce': nonce, 'req_id': req_id}
     try:
         response = requests.get(url, data=data, timeout=1)
-        throughput[0] += 1
 
         if response.status_code == 200:
+            throughput[0] += 1
             logger.info(f"API response: status {response.status_code}, resp {response.json()}")
         else:
             logger.warning(f"API response: status {response.status_code}, resp {response.json()}")
         
+        # -> ensure thread last for 1 second -> limit number of executing threads per second the number of total worker threads
+        # other threads will execute in the meantime
+        time.sleep((1 - (timestamp_ms() - enter_ms) / 1000.0))
+
     except requests.exceptions.Timeout:
         logger.warning(f"Request {req_id} api timeout ")
-    # -> ensure thread last for 1 second -> limit number of executing threads per second the number of total worker threads
-    # other threads will execute in the meantime
-    time.sleep((timeout_ms - timestamp_ms() + enter_ms) / 1000.0)
     
 
 async def thread_controller(url: str, api_key: str, queue: Queue, logger: logging.Logger, throughput: list[int]):
@@ -192,15 +193,16 @@ async def thread_controller(url: str, api_key: str, queue: Queue, logger: loggin
                 request: Request = queue.get_nowait()
                 # time since request creation
                 remaining_ttl = REQUEST_TTL_MS - (timestamp_ms() - request.create_time)
+
+                # requests received by worker
+                throughput[1] += 1
+
                 if remaining_ttl <= 0:
                     logger.warning(f"ignoring request {request.req_id} from queue due to TTL")
                     continue
 
-                # requests received by worker
-                throughput[1] += 1
-                
                 nonce = timestamp_ms()
-                executor.submit(worker, url, api_key, nonce, request.req_id, remaining_ttl, logger, throughput)
+                executor.submit(worker, url, api_key, nonce, request.req_id, 1, logger, throughput)
             
             # pass back to generate_request
             except QueueEmpty:
@@ -242,8 +244,6 @@ def main():
 
     loop.run_forever()
 
-
-# TODO: Implementing multithreading style
 
 if __name__ == '__main__':
     main()
