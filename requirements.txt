@@ -14,3 +14,4 @@ Werkzeug==1.0.1
 # yarl==1.4.2
 numpy
 scipy
+requests

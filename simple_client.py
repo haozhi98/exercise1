@@ -5,11 +5,15 @@ import logging
 import contextlib
 
 import asyncio
-from asyncio import Queue
+from asyncio import Queue, QueueEmpty
 import aiohttp
 import async_timeout
 
-# Multi-threading uses threads and is managed by the operating system's scheduler, while coroutines use the asyncio library and are managed by the asyncio event loop. Both mechanisms allow you to write code that can handle multiple I/O operations concurrently, but they do not provide true parallelism due to the GIL.
+import requests
+import concurrent.futures
+
+# Multi-threading uses threads and is managed by the operating system's scheduler, while coroutines use the asyncio library and are managed by the asyncio event loop.
+# Both mechanisms allow you to write code that can handle multiple I/O operations concurrently, but they do not provide true parallelism due to the GIL.
 # region: DO NOT CHANGE - the code within this region can be assumed to be "correct"
 
 PER_SEC_RATE = 20
@@ -94,12 +98,12 @@ class RateLimiter:
 
             # ensure min duration between sequential requests
             if now - self.__last_request_time <= self.__min_duration_ms_between_requests:
-                await asyncio.sleep(0.002)
+                await asyncio.sleep(0.001)
                 continue
             
             # ensure adherence to per_sec_rate limit
             if now - self.__request_times[self.__curr_idx] <= 1000:
-                await asyncio.sleep(0.002)
+                await asyncio.sleep(0.001)
                 continue
 
             break
@@ -151,6 +155,58 @@ async def exchange_facing_worker(url: str, api_key: str, queue: Queue, logger: l
                 logger.warning(f"ignoring request {request.req_id} in limiter due to TTL")
 
 
+def worker(url: str, api_key: str, nonce: str, req_id: str, timeout_ms: int, logger: logging.Logger, throughput: list[int]):
+    """
+    worker thread is only responsible for executing the request
+    """
+    enter_ms = timestamp_ms()
+    data = {'api_key': api_key, 'nonce': nonce, 'req_id': req_id}
+    try:
+        response = requests.get(url, data=data, timeout=1)
+        throughput[0] += 1
+
+        if response.status_code == 200:
+            logger.info(f"API response: status {response.status_code}, resp {response.json()}")
+        else:
+            logger.warning(f"API response: status {response.status_code}, resp {response.json()}")
+        
+    except requests.exceptions.Timeout:
+        logger.warning(f"Request {req_id} api timeout ")
+    # -> ensure thread last for 1 second -> limit number of executing threads per second the number of total worker threads
+    # other threads will execute in the meantime
+    time.sleep((timeout_ms - timestamp_ms() + enter_ms) / 1000.0)
+    
+
+async def thread_controller(url: str, api_key: str, queue: Queue, logger: logging.Logger, throughput: list[int]):
+    # don't log the threading info
+    urllib3_logger = logging.getLogger("urllib3.connectionpool")
+    urllib3_logger.setLevel(logging.CRITICAL)
+
+    # match the sleep in request generator
+    async_sleep_time = (1 / PER_SEC_RATE) * 1.05
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=20) as executor:
+        while True:
+            await asyncio.sleep(async_sleep_time)
+            try:
+                request: Request = queue.get_nowait()
+                # time since request creation
+                remaining_ttl = REQUEST_TTL_MS - (timestamp_ms() - request.create_time)
+                if remaining_ttl <= 0:
+                    logger.warning(f"ignoring request {request.req_id} from queue due to TTL")
+                    continue
+
+                # requests received by worker
+                throughput[1] += 1
+                
+                nonce = timestamp_ms()
+                executor.submit(worker, url, api_key, nonce, request.req_id, remaining_ttl, logger, throughput)
+            
+            # pass back to generate_request
+            except QueueEmpty:
+                continue            
+
+
 class Request:
     def __init__(self, req_id):
         self.req_id = req_id
@@ -164,7 +220,9 @@ async def log_throughput(throughput: list[int], logger: logging.Logger):
         throughput[0] = throughput[1] = 0
 
 def main():
+    args = sys.argv
     url = "http://127.0.0.1:9999/api/request"
+
     loop = asyncio.get_event_loop()
     queue = Queue()
     throughput = [0, 0]
@@ -172,12 +230,18 @@ def main():
     logger = configure_logger()
     loop.create_task(generate_requests(queue=queue))
 
-    for api_key in VALID_API_KEYS:
-        loop.create_task(exchange_facing_worker(url=url, api_key=api_key, queue=queue, logger=logger, throughput=throughput))
-    
+    if args[1] == 'async':        
+        for api_key in VALID_API_KEYS:
+            loop.create_task(exchange_facing_worker(url=url, api_key=api_key, queue=queue, logger=logger, throughput=throughput))
+
+    elif args[1] == 'threading':
+        for api_key in VALID_API_KEYS:
+            loop.create_task(thread_controller(url=url, api_key=api_key, queue=queue, logger=logger, throughput=throughput))
+        
     loop.create_task(log_throughput(throughput=throughput, logger=logger))
 
     loop.run_forever()
+
 
 # TODO: Implementing multithreading style
 
