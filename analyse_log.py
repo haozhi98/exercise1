@@ -17,6 +17,7 @@ exceeds = 0
 
 item = lines[0].split()
 firstTime = startTime = datetime.strptime(item[1], time_format)
+requests = []
 
 for line in lines[1:]:
     items = line.split()
@@ -31,6 +32,8 @@ for line in lines[1:]:
     elif items[5] == 'INFO':
         if items[10] == '200,':
             throughput += 1
+        elif items[7] == 'Requests':
+            requests.append(int(items[8]))
     elif items[5] == 'WARNING':
         if items[11] == 'queue':
             ignored_queue += 1
@@ -43,6 +46,7 @@ for line in lines[1:]:
 
 transposed_metrics = list(zip(*metrics))
 
+avg_max_throughput = sum(requests) / len(requests)
 avg_throughput = sum(transposed_metrics[0]) / len(transposed_metrics[0])
 avg_ignored_queue = sum(transposed_metrics[1]) / len(transposed_metrics[1])
 avg_limited = sum(transposed_metrics[2]) / len(transposed_metrics[2])
@@ -51,7 +55,8 @@ min_throughput = min(metrics, key=lambda x: x[0])[0]
 totalTime = time_obj - firstTime
 
 with open('throughputs.txt', 'a') as file:
-    file.write(f"\nAverage Throughput: {avg_throughput}\n")
+    file.write(f"\nMax Possible Throughput: {avg_max_throughput}\n")
+    file.write(f"Average Throughput: {avg_throughput}\n")
     file.write(f"Lowest Throughput: {min_throughput}\n")
     file.write(f"Average Ignored from Queue: {avg_ignored_queue}\n")
     file.write(f"Average Limited by Limiter: {avg_limited}\n")

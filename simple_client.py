@@ -81,12 +81,12 @@ class RateLimiter:
     @contextlib.asynccontextmanager
     async def acquire(self, timeout_ms=0):
         # more time before timeout
-        timeout_ms += 25
         enter_ms = timestamp_ms()
         while True:
             # larger offset -> more likely to timeout
-            # more "time" between requests -> higher rate
-            now = timestamp_ms() + 25
+            # set offset to same as offset in timeout_ms -> keep same timeout logic
+            # offset overhead of time between orders -> set less time between orders -> higher throughput
+            now = timestamp_ms()
 
             # TODO: Outdated request while trying to acquire
             if now - enter_ms > timeout_ms > 0:
@@ -94,12 +94,12 @@ class RateLimiter:
 
             # ensure min duration between sequential requests
             if now - self.__last_request_time <= self.__min_duration_ms_between_requests:
-                await asyncio.sleep(0.0005)
+                await asyncio.sleep(0.002)
                 continue
             
             # ensure adherence to per_sec_rate limit
             if now - self.__request_times[self.__curr_idx] <= 1000:
-                await asyncio.sleep(0.0005)
+                await asyncio.sleep(0.002)
                 continue
 
             break
@@ -107,7 +107,7 @@ class RateLimiter:
         # Adherence to rate limits have been ensured
 
         # set last request time to current time, and also store in request_times array
-        self.__last_request_time = self.__request_times[self.__curr_idx] = now - 25
+        self.__last_request_time = self.__request_times[self.__curr_idx] = now - 10
         # index to use to reference request_times array
         self.__curr_idx = (self.__curr_idx + 1) % self.__per_second_rate
         yield self
@@ -119,12 +119,11 @@ async def exchange_facing_worker(url: str, api_key: str, queue: Queue, logger: l
         while True:
             # get request from queue
             request: Request = await queue.get()
-            
-            # extra time to offset low throughput due to overhead
-            # Max: 100 request / s -> 
-            # extra_time = throughput[1]/100
+            # requests received by worker
+            throughput[1] += 1
+
             # time since request creation
-            remaining_ttl = REQUEST_TTL_MS - (timestamp_ms() - request.create_time) + 100
+            remaining_ttl = REQUEST_TTL_MS - (timestamp_ms() - request.create_time)
 
             # TODO: Outdated request before trying to acquire -> 
             if remaining_ttl <= 0:
@@ -160,9 +159,9 @@ class Request:
 async def log_throughput(throughput: list[int], logger: logging.Logger):
     while True:
         await asyncio.sleep(1)
-        logger.info(f"Throughput: {throughput[0]} requests made / second")
-        throughput[1] = throughput[0]
-        throughput[0] = 0
+        logger.info(f"Throughput {throughput[0]} requests made / second")
+        logger.info(f"Requests {throughput[1]} requests made / second")
+        throughput[0] = throughput[1] = 0
 
 def main():
     url = "http://127.0.0.1:9999/api/request"
@@ -179,6 +178,8 @@ def main():
     loop.create_task(log_throughput(throughput=throughput, logger=logger))
 
     loop.run_forever()
+
+# TODO: Implementing multithreading style
 
 if __name__ == '__main__':
     main()
