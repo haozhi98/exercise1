@@ -22,8 +22,11 @@ requests = []
 
 for line in lines[1:]:
     items = line.split()
-    time_obj = datetime.strptime(items[1], time_format)
-
+    try:
+        time_obj = datetime.strptime(items[1], time_format)
+    except:
+        # skip error logs
+        continue
     if time_obj - startTime >= one_second:
         metrics.append((throughput, ignored_queue, limited))
         throughput = 0

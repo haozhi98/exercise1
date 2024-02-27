@@ -12,8 +12,6 @@ import async_timeout
 import requests
 import concurrent.futures
 
-# Multi-threading uses threads and is managed by the operating system's scheduler, while coroutines use the asyncio library and are managed by the asyncio event loop.
-# Both mechanisms allow you to write code that can handle multiple I/O operations concurrently, but they do not provide true parallelism due to the GIL.
 # region: DO NOT CHANGE - the code within this region can be assumed to be "correct"
 
 PER_SEC_RATE = 20

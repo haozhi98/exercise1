@@ -1,3 +1,36 @@
+## How to run
+I am using `python3.10.13`, any python `version~3.10` should be compatible
+`pip install -r requirements`
+### To execute client program
+Ensure server is already running
+`python simple_rest_server.py`
+
+For async approach
+`python simple_client.py async`
+
+For multi-threading approach
+`python simple_client.py threading`
+
+### Analyse Results
+Run analysis scripts which adds the summarised log data to the `throughputs.txt` file
+`python analyse_log.py`
+
+Sample output in `throughputs.txt`
+
+{{
+Stress Testing
+Average Requests Rate: 165.85416666666666
+Max Possible Throughput: 100
+Average Throughput: 82.66666666666667
+Lowest Throughput: 69
+Average Ignored from Queue: 0.0
+Average Limited by Limiter: 0.0
+Exceeds: 11
+Bans: 0
+Nonce Errors: 701
+Total Time: 0:00:49.938000
+}}
+
 ## Task
 ### Your task is to review and modify the client code to maximize the throughput available to the client
 We’d like to hear about the issues you found in the existing code, what design choices you used (e.g why you might use asynchronous code instead of multithreading)
@@ -16,8 +49,8 @@ The number of orders received from the queue, including orders that expire befor
 ### Average Throughput
 The number of orders that were successfully made
 ### Ignored from queue
-Number of orders that expired before waiting for acquire due to timeout of 1 second between order creation and order processing
-### Limited by Limiter
+Number of orders that expired before waiting for acquire due to timeout of 1 second between order creation and order processing`
+### Limited by Limiter`
 Number of orders that expire while waiting for acquire
 ### Exceeds
 Number of rate limit errors
@@ -95,3 +128,10 @@ Hard to ensure fair allocation of CPU time to order generator and thread control
 In our stress test, where the order creation rate is doubled, we see that the thread execution order had a lot more disorder, likely due to the higher rate of switching between the async functions.
 Might need to introduce thread synchronization in such cases, which would increase the complexity of the implementation and introduce more overhead
 In the stress test, there were also `11` exceeds in about `5000` requests, indicating that the order limit mechanism did not perform well when throughput was at its limit, likely due to variance. The solution will be to introduce a buffer such that the order limit is not reached even where there is variance in the timing mechanism and context switching of theads.
+
+
+## Possible Improvements
+Python Global Interpreter Lock prevents true parallelism with multithreading since it essentially limits the program to a single point of execution. Overall, I would say this could be ideal in this program, which is largely I/O-bound.
+With a multi-processing approach, we can acheive true parallelism, but we will need more resources, process synchronization which would complicate the program. Furthermore, the async and multi-threading approach have almost reached optimal throughput so there is not much incentive to try a multi-processing approach. 
+
+Perhaps if we have higher request limit rates, or more APIs, it would make sense to run multi-processing. Another alternative would be to run 1 process for each API, and a separate process for order generation. With such an approach, the main concern would be synchronizing between the difference processes when they acquire the orders, such that a single order is not sent more than once or an order processed before another.
