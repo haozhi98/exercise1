@@ -1,35 +1,32 @@
 ## How to run
-I am using `python3.10.13`, any python `version~3.10` should be compatible
+I am using `python3.10.13`, any python `version~3.10` should be compatible\
 `pip install -r requirements`
 ### To execute client program
-Ensure server is already running
+Ensure server is already running\
 `python simple_rest_server.py`
 
-For async approach
+For async approach\
 `python simple_client.py async`
 
-For multi-threading approach
+For multi-threading approach\
 `python simple_client.py threading`
 
 ### Analyse Results
-Run analysis scripts which adds the summarised log data to the `throughputs.txt` file
+Run analysis scripts which adds the summarised log data to the `throughputs.txt` file\
 `python analyse_log.py`
 
 Sample output in `throughputs.txt`
 
-{{
-Stress Testing
-Average Requests Rate: 165.85416666666666
-Max Possible Throughput: 100
-Average Throughput: 82.66666666666667
-Lowest Throughput: 69
-Average Ignored from Queue: 0.0
-Average Limited by Limiter: 0.0
-Exceeds: 11
-Bans: 0
-Nonce Errors: 701
+Average Requests Rate: 165.85416666666666\
+Max Possible Throughput: 100\
+Average Throughput: 82.66666666666667\
+Lowest Throughput: 69\
+Average Ignored from Queue: 0.0\
+Average Limited by Limiter: 0.0\
+Exceeds: 11\
+Bans: 0\
+Nonce Errors: 701\
 Total Time: 0:00:49.938000
-}}
 
 ## Task
 ### Your task is to review and modify the client code to maximize the throughput available to the client
@@ -50,7 +47,7 @@ The number of orders received from the queue, including orders that expire befor
 The number of orders that were successfully made
 ### Ignored from queue
 Number of orders that expired before waiting for acquire due to timeout of 1 second between order creation and order processing`
-### Limited by Limiter`
+### Limited by Limiter
 Number of orders that expire while waiting for acquire
 ### Exceeds
 Number of rate limit errors
